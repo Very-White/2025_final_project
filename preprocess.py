@@ -11,7 +11,7 @@ import json
 import os
 import pickle
 from pathlib import Path
-from typing import Any, Dict, List
+from typing import Any, Dict, Iterator
 
 import yaml
 from tqdm.auto import tqdm
@@ -36,11 +36,14 @@ def load_config(path: str | Path) -> Dict[str, Any]:
         return yaml.safe_load(f)
 
 
-def load_raw_corpus(cfg: Dict[str, Any]) -> tuple[list[dict], list[dict], list[dict]]:
-    def read_jsonl(p: str) -> list[dict]:
+def load_raw_corpus(cfg: Dict[str, Any]) -> tuple[Iterator[dict], Iterator[dict], Iterator[dict]]:
+    """返回三个生成器：训练集、验证集、测试集的流式读取器"""
+    def read_jsonl(p: str) -> Iterator[dict]:
+        """流式读取JSONL文件"""
         with open(p, "r", encoding="utf-8") as f:
-            return [json.loads(line) for line in f]
-
+            for line in f:
+                yield json.loads(line)
+    
     return (
         read_jsonl(cfg["data"]["raw_train"]),
         read_jsonl(cfg["data"]["raw_val"]),
@@ -72,15 +75,16 @@ def save_vocab(tokenizer: BaseTokenizer, cfg: Dict[str, Any]) -> None:
 
 
 def encode_and_save(
-    dataset: list[dict],
+    dataset: Iterator[dict],
     out_path: str | Path,
     tokenizer: BaseTokenizer,
 ) -> None:
     """
-    将一批样本编码后写为 jsonl，每行格式：
-        {"src_ids":[...], "tgt_ids":[...]}
+    流式处理：将样本逐条编码并写入jsonl
+    每行格式：{"src_ids":[...], "tgt_ids":[...]}
     """
     with open(out_path, "w", encoding="utf-8") as fout:
+        # 使用tqdm显示进度，但不依赖完整数据集大小
         for sample in tqdm(dataset, desc=f"writing {out_path}"):
             src_ids = tokenizer.encode_src(sample["zh"])
             tgt_ids = tokenizer.encode_tgt(sample["en"])
@@ -94,23 +98,26 @@ def main() -> None:
 
     make_processed_dirs(cfg)
     tokenizer = instantiate_tokenizer(cfg)
-
-    train_raw, val_raw, test_raw = load_raw_corpus(cfg)
-
-    # ---------- 构建词表 ----------
+    
+    # 获取流式数据集
+    train_stream, val_stream, test_stream = load_raw_corpus(cfg)
+    
+    # ---------- 流式构建词表 ----------
+    # 直接传入样本流进行词表构建
     tokenizer.build_vocab(
-        [s["zh"] for s in train_raw],
-        [s["en"] for s in train_raw],
+        train_stream,  # 直接传入样本流
         min_freq=cfg["data"].get("min_freq", 2),
     )
     save_vocab(tokenizer, cfg)
+    
+    # ---------- 流式编码并保存 ----------
+    # 重新创建流式读取器（生成器只能遍历一次）
+    train_stream, val_stream, test_stream = load_raw_corpus(cfg)
+    encode_and_save(train_stream, cfg["data"]["train_processed"], tokenizer)
+    encode_and_save(val_stream, cfg["data"]["val_processed"], tokenizer)
+    encode_and_save(test_stream, cfg["data"]["test_processed"], tokenizer)
 
-    # ---------- 编码并保存 ----------
-    encode_and_save(train_raw, cfg["data"]["train_processed"], tokenizer)
-    encode_and_save(val_raw, cfg["data"]["val_processed"], tokenizer)
-    encode_and_save(test_raw, cfg["data"]["test_processed"], tokenizer)
-
-    print("预处理完成！")
+    print("预处理完成！流式处理大数据集成功！")
 
 
 if __name__ == "__main__":
