@@ -144,7 +144,7 @@ class MultiHeadAttention(nn.Module):
 
         # 处理掩码
         if mask is not None:
-            scores = scores.masked_fill(mask == 0, -1e9)
+            scores = scores.masked_fill(mask == 0, -1e4)
             
         # 对value加权求和。(B,num_heads,L,L) @ (B,num_heads,L,head_dim)
         attn_weights = F.softmax(scores, dim=-1)

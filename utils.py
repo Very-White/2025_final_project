@@ -8,10 +8,10 @@ from __future__ import annotations
 import json
 import pickle
 from pathlib import Path
-from typing import List, Tuple, Dict, Any
+from typing import List, Tuple, Dict, Any, Iterator
 
 import torch
-from torch.utils.data import Dataset, DataLoader
+from torch.utils.data import Dataset, DataLoader, IterableDataset
 from torch.nn.utils.rnn import pad_sequence
 from torch import Tensor
 
@@ -33,6 +33,20 @@ class TranslationDataset(Dataset):
     def __getitem__(self, idx: int) -> Tuple[List[int], List[int]]:
         s = self.samples[idx]
         return s["src_ids"], s["tgt_ids"]
+
+
+class StreamTranslationDataset(IterableDataset):
+    """流式加载数据集，适用于大数据集训练"""
+    
+    def __init__(self, file_path: str | Path):
+        self.file_path = file_path
+        
+    def __iter__(self) -> Iterator[Tuple[List[int], List[int]]]:
+        """流式迭代器，逐行读取JSONL文件"""
+        with open(self.file_path, "r", encoding="utf-8") as f:
+            for line in f:
+                obj = json.loads(line)
+                yield obj["src_ids"], obj["tgt_ids"]
 
 
 def collate_fn(
@@ -74,6 +88,8 @@ def load_dataset(
     注意：**不会**在内部创建新的 tokenizer，而是
     1) 读取词表 -> tokenizer.set_vocab(...)
     2) 直接使用调用方传入的 tokenizer
+    
+    修改:三个数据集都使用流式加载
     """
     # ------------- 注入词表 -------------
     with open(config["data"]["src_vocab"], "rb") as f:
@@ -83,13 +99,11 @@ def load_dataset(
     tokenizer.set_vocab(src_vocab, tgt_vocab)
 
     # ------------- 加载数据 -------------
-    train_samples = _read_jsonl(config["data"]["train_processed"])
-    val_samples = _read_jsonl(config["data"]["val_processed"])
-    test_samples = _read_jsonl(config["data"]["test_processed"])
-
-    train_ds = TranslationDataset(train_samples)
-    val_ds = TranslationDataset(val_samples)
-    test_ds = TranslationDataset(test_samples)
+    # 使用流式加载
+    train_ds = StreamTranslationDataset(config["data"]["train_processed"])
+    val_ds = StreamTranslationDataset(config["data"]["val_processed"])
+    test_ds = StreamTranslationDataset(config["data"]["test_processed"])
+    
     return train_ds, val_ds, test_ds
 
 

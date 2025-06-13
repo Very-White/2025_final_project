@@ -3,27 +3,28 @@ tokenizer: tokenizer.JiebaEnTokenizer     # 可改为自定义类的全路径
 
 # ------------- 模型结构 ----------------
 model:
-  enc_layers: 6          # Transformer Encoder 层数
-  dec_layers: 6          # Transformer Decoder 层数
-  emb_size: 512          # 词向量 / 隐层维度
+  enc_layers: 4         # Transformer Encoder 层数
+  dec_layers: 4          # Transformer Decoder 层数
+  emb_size: 128          # 词向量 / 隐层维度
   nhead: 8               # Multi-Head Attention 头数
-  ffn_dim: 2048           # Feed-Forward 隐层
+  ffn_dim: 512           # Feed-Forward 隐层
   dropout: 0.1           # Dropout 概率
 
 # ------------- 训练超参 ----------------
 train:
-  batch_size: 32
+  batch_size: 8
   lr: 0.0001
   weight_decay: 0.0001
   scheduler_per_step: false
-  lr_step: 2000             # StepLR：每多少 steps 衰减
+  lr_step: 8000             # StepLR：每多少 steps 衰减
   lr_gamma: 0.9          # 衰减系数
   save_dir: runs         # 存 ckpt 的文件夹
   num_workers: 0         # 最好不要修改
-  total_steps: 100000  # 总训练步数
-  log_interval: 100    # 训练日志间隔
-  val_interval: 1000   # 验证间隔
-  save_every: 5000     # 模型保存间隔
+  total_steps: 400000  # 总训练步数
+  log_interval: 400    # 训练日志间隔
+  val_interval: 4000   # 验证间隔
+  save_every: 20000     # 模型保存间隔
+  use_fp16: true  # 是否使用 fp16
 
 # ------------- 数据路径 ----------------
 data:

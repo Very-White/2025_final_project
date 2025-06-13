@@ -18,6 +18,7 @@ import torch.optim as optim
 from torch.optim.lr_scheduler import StepLR
 from torch.utils.data import DataLoader
 from tqdm.auto import tqdm
+from torch import amp
 
 from tokenizer import BaseTokenizer
 from utils import load_dataset, collate_fn
@@ -78,6 +79,9 @@ def train_with_step_logging(
     best_val = math.inf
     save_dir = Path(cfg["train"]["save_dir"])
     save_dir.mkdir(parents=True, exist_ok=True)
+    
+    # 添加FP16支持：初始化梯度缩放器
+    scaler = amp.GradScaler(enabled=cfg["train"].get("use_fp16", True))
 
     # 训练参数
     total_steps_target = cfg["train"]["total_steps"]  # 总训练步数
@@ -107,14 +111,21 @@ def train_with_step_logging(
 
         # 训练步骤
         optimizer.zero_grad()
-        logits = model(src, tgt_inp)
-        loss = criterion(
-            logits.reshape(-1, logits.size(-1)),
-            tgt_gold.reshape(-1),
-        )
-        loss.backward()
+        
+        # 使用混合精度包装前向计算
+        with amp.autocast(device_type=device.type,enabled=cfg["train"].get("use_fp16", True)):
+            logits = model(src, tgt_inp)
+            loss = criterion(
+                logits.reshape(-1, logits.size(-1)),
+                tgt_gold.reshape(-1),
+            )
+        
+        # 使用缩放器进行反向传播
+        scaler.scale(loss).backward()
+        scaler.unscale_(optimizer)
         torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)
-        optimizer.step()
+        scaler.step(optimizer)
+        scaler.update()
 
         # 更新统计
         train_loss_accum += loss.item()
@@ -132,7 +143,10 @@ def train_with_step_logging(
 
         # 定期验证
         if total_steps % val_interval == 0:
-            val_loss = validate_one_epoch(model, val_loader, criterion, device)
+            val_loss = validate_one_epoch(
+                model, val_loader, criterion, device, 
+                use_fp16=cfg["train"].get("use_fp16", True)  # 添加FP16支持参数
+            )
             swanlab.log({"step": total_steps, "val_loss": val_loss})
             pbar.set_postfix(val_loss=f"{val_loss:.4f}", step=total_steps)
 
@@ -190,6 +204,7 @@ def validate_one_epoch(
     dataloader: DataLoader,
     criterion: nn.Module,
     device: torch.device,
+    use_fp16: bool = True  # 添加FP16支持参数
 ) -> float:
     model.eval()
     val_loss = 0.0
@@ -201,11 +216,14 @@ def validate_one_epoch(
         tgt_inp = tgt[:, :-1]
         tgt_gold = tgt[:, 1:]
 
-        logits = model(src, tgt_inp)
-        loss = criterion(
-            logits.reshape(-1, logits.size(-1)),
-            tgt_gold.reshape(-1),
-        )
+        # 使用混合精度包装验证阶段的前向计算
+        with amp.autocast(enabled=use_fp16):
+            logits = model(src, tgt_inp)
+            loss = criterion(
+                logits.reshape(-1, logits.size(-1)),
+                tgt_gold.reshape(-1),
+            )
+        
         val_loss += loss.item() * batch_size
         total_samples += batch_size
         torch.cuda.empty_cache()
@@ -219,6 +237,17 @@ def main() -> None:
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     torch.manual_seed(cfg.get("seed", 3407))
+    
+    # 添加设备兼容性检查
+    if cfg["train"].get("use_fp16", True) and device.type == "cuda":
+        if not torch.cuda.is_bf16_supported():
+            print("警告: 当前GPU设备不支持FP16训练，已自动禁用FP16模式")
+            cfg["train"]["use_fp16"] = False
+        else:
+            print("启用FP16混合精度训练")
+    elif cfg["train"].get("use_fp16", True):
+        print("警告: CPU设备不支持FP16训练，已自动禁用FP16模式")
+        cfg["train"]["use_fp16"] = False
 
     # -------------------- swanlab --------------------------
     swanlab.init(
@@ -234,10 +263,8 @@ def main() -> None:
     train_loader = DataLoader(
         train_ds,
         batch_size=cfg["train"]["batch_size"],
-        shuffle=True,
         num_workers=cfg["train"].get("num_workers", 4),
         collate_fn=lambda b: collate_fn(b, pad_id=tokenizer.pad_token_id),
-        pin_memory=True,
     )
     val_loader = DataLoader(
         val_ds,
