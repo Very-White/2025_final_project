@@ -217,7 +217,7 @@ def validate_one_epoch(
         tgt_gold = tgt[:, 1:]
 
         # 使用混合精度包装验证阶段的前向计算
-        with amp.autocast(enabled=use_fp16):
+        with amp.autocast(device_type=device.type,enabled=use_fp16):
             logits = model(src, tgt_inp)
             loss = criterion(
                 logits.reshape(-1, logits.size(-1)),
