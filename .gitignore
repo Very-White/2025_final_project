@@ -1,0 +1,13 @@
+# IDE
+.idea/
+__pycache__/
+.vscode/
+.DS_Store
+
+# 数据及日志
+data/
+runs/
+swanlog/
+
+# 结果
+translations.json

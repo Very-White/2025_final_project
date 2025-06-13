@@ -1,0 +1,41 @@
+# ------------- 分词器 -----------------
+tokenizer: tokenizer.JiebaEnTokenizer     # 可改为自定义类的全路径
+
+# ------------- 模型结构 ----------------
+model:
+  enc_layers: 6          # Transformer Encoder 层数
+  dec_layers: 6          # Transformer Decoder 层数
+  emb_size: 512          # 词向量 / 隐层维度
+  nhead: 8               # Multi-Head Attention 头数
+  ffn_dim: 2048           # Feed-Forward 隐层
+  dropout: 0.1           # Dropout 概率
+
+# ------------- 训练超参 ----------------
+train:
+  batch_size: 32
+  epochs: 100
+  lr: 0.0001
+  weight_decay: 0.0001
+  lr_step: 30             # StepLR：每多少 epoch 衰减
+  lr_gamma: 0.8          # 衰减系数
+  save_dir: runs         # 存 ckpt 的文件夹
+  num_workers: 0         # 最好不要修改
+  save_every: 1         # 每多少个 epoch 保存一次 ckpt
+
+# ------------- 数据路径 ----------------
+data:
+  raw_train:      data/train_5000k.jsonl
+  raw_val:        data/valid.jsonl
+  raw_test:       data/test.jsonl
+
+  processed_dir:  data/processed_5000k
+  train_processed: data/processed_5000k/train.jsonl
+  val_processed:   data/processed_5000k/val.jsonl
+  test_processed:  data/processed_5000k/test.jsonl
+
+  src_vocab:      data/processed_5000k/src_vocab.pkl
+  tgt_vocab:      data/processed_5000k/tgt_vocab.pkl
+  min_freq: 1
+
+# ------------- 其余 --------------------
+seed: 3407          # 固定随机种子，保证可复现
