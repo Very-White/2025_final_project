@@ -16,7 +16,7 @@ train:
   lr: 0.00005
   weight_decay: 0.00005
   scheduler_per_step: false
-  lr_step: 8000             # StepLR：每多少 steps 衰减
+  lr_step: 80000             # StepLR：每多少 steps 衰减
   lr_gamma: 0.9          # 衰减系数
   save_dir: runs         # 存 ckpt 的文件夹
   num_workers: 0         # 最好不要修改
