@@ -79,7 +79,7 @@ def train_with_step_logging(
     best_val = math.inf
     save_dir = Path(cfg["train"]["save_dir"])
     save_dir.mkdir(parents=True, exist_ok=True)
-    
+
     # 添加FP16支持：初始化梯度缩放器
     scaler = amp.GradScaler(enabled=cfg["train"].get("use_fp16", True))
 
@@ -111,7 +111,7 @@ def train_with_step_logging(
 
         # 训练步骤
         optimizer.zero_grad()
-        
+
         # 使用混合精度包装前向计算
         with amp.autocast(device_type=device.type,enabled=cfg["train"].get("use_fp16", True)):
             logits = model(src, tgt_inp)
@@ -119,7 +119,7 @@ def train_with_step_logging(
                 logits.reshape(-1, logits.size(-1)),
                 tgt_gold.reshape(-1),
             )
-        
+
         # 使用缩放器进行反向传播
         scaler.scale(loss).backward()
         scaler.unscale_(optimizer)
@@ -133,10 +133,15 @@ def train_with_step_logging(
         total_steps += 1
         pbar.update(1)
 
+        # 清除中间变量，释放显存
+        del loss, src, tgt, logits, tgt_gold, tgt_inp
+        optimizer.zero_grad()
+        torch.cuda.empty_cache()
+
         # 定期记录训练损失
         if total_steps % log_interval == 0:
             avg_train_loss = train_loss_accum / step_count
-            swanlab.log({"step": total_steps, "train_loss": avg_train_loss})
+            swanlab.log({"train_loss": avg_train_loss})
             train_loss_accum = 0.0
             step_count = 0
             pbar.set_postfix(train_loss=f"{avg_train_loss:.4f}", step=total_steps)
@@ -147,7 +152,7 @@ def train_with_step_logging(
                 model, val_loader, criterion, device, 
                 use_fp16=cfg["train"].get("use_fp16", True)  # 添加FP16支持参数
             )
-            swanlab.log({"step": total_steps, "val_loss": val_loss})
+            swanlab.log({"val_loss": val_loss})
             pbar.set_postfix(val_loss=f"{val_loss:.4f}", step=total_steps)
 
             # 保存最佳模型
@@ -184,7 +189,7 @@ def train_with_step_logging(
                 ckpt_path,
             )
             print(f"Model at step {total_steps} saved to {ckpt_path}")
-            
+
             # 学习率调度 - 基于验证周期
             if not cfg["train"].get("scheduler_per_step", False):
                 scheduler.step()  # 每个验证周期后调用
@@ -192,8 +197,6 @@ def train_with_step_logging(
         # 学习率调度 - 基于steps
         if cfg["train"].get("scheduler_per_step", False):
             scheduler.step()
-
-        torch.cuda.empty_cache()
 
     pbar.close()
 
@@ -219,13 +222,17 @@ def validate_one_epoch(
         # 使用混合精度包装验证阶段的前向计算
         with amp.autocast(device_type=device.type,enabled=use_fp16):
             logits = model(src, tgt_inp)
+            del src, tgt, tgt_inp  # 释放中间变量
             loss = criterion(
                 logits.reshape(-1, logits.size(-1)),
                 tgt_gold.reshape(-1),
             )
+
+        # 释放中间变量
         
         val_loss += loss.item() * batch_size
         total_samples += batch_size
+        del loss,logits,tgt_gold
         torch.cuda.empty_cache()
 
     return val_loss / total_samples
@@ -272,7 +279,6 @@ def main() -> None:
         shuffle=False,
         num_workers=cfg["train"].get("num_workers", 4),
         collate_fn=lambda b: collate_fn(b, pad_id=tokenizer.pad_token_id),
-        pin_memory=True,
     )
 
     # ---------------- Model ----------------

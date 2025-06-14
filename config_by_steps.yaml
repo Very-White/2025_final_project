@@ -12,18 +12,18 @@ model:
 
 # ------------- 训练超参 ----------------
 train:
-  batch_size: 8
-  lr: 0.0001
-  weight_decay: 0.0001
+  batch_size: 4
+  lr: 0.00005
+  weight_decay: 0.00005
   scheduler_per_step: false
   lr_step: 8000             # StepLR：每多少 steps 衰减
   lr_gamma: 0.9          # 衰减系数
   save_dir: runs         # 存 ckpt 的文件夹
   num_workers: 0         # 最好不要修改
-  total_steps: 400000  # 总训练步数
-  log_interval: 400    # 训练日志间隔
-  val_interval: 4000   # 验证间隔
-  save_every: 20000     # 模型保存间隔
+  total_steps: 800000  # 总训练步数
+  log_interval: 800    # 训练日志间隔
+  val_interval: 8000   # 验证间隔
+  save_every: 40000     # 模型保存间隔
   use_fp16: true  # 是否使用 fp16
 
 # ------------- 数据路径 ----------------
