@@ -4,6 +4,7 @@ import math
 from typing import Optional
 import torch.nn.functional as F
 import numpy as np
+from torch.utils.checkpoint import checkpoint
 
 # -----------------------------------------------------------------------------
 # Positional Encoding
@@ -172,6 +173,15 @@ class FeedForward(nn.Module):
         self.linear2 = nn.Linear(d_ff, d_model)  
 
     def forward(self, x: torch.Tensor) -> torch.Tensor:  # (B, L, D)
+        # 使用梯度检查点减少显存占用
+        if self.training:
+            # 仅训练时启用检查点，包装计算密集型部分
+            return checkpoint(self._forward, x, use_reentrant=False)
+        else:
+            return self._forward(x)
+    
+    def _forward(self, x: torch.Tensor) -> torch.Tensor:
+        """实际FFN计算逻辑，被checkpoint包装"""
         x = self.linear1(x)
         x = self.activation(x)
         x = self.dropout(x)
