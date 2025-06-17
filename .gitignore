@@ -8,6 +8,7 @@ __pycache__/
 data/
 runs/
 swanlog/
+best_models/
 
 # 结果
 translations.json

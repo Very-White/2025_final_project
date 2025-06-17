@@ -59,12 +59,12 @@ def collate_fn(
     """
     src, tgt = zip(*batch)  # 两个 list
     src_pad = pad_sequence(
-        [torch.tensor(s, dtype=torch.long) for s in src],
+        [torch.tensor(s, dtype=torch.long) for s in src if len(s) < 85],
         batch_first=True,
         padding_value=pad_id,
     )
     tgt_pad = pad_sequence(
-        [torch.tensor(t, dtype=torch.long) for t in tgt],
+        [torch.tensor(t, dtype=torch.long) for t in tgt if len(t) < 85],
         batch_first=True,
         padding_value=pad_id,
     )
