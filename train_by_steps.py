@@ -99,66 +99,85 @@ def train_with_step_logging(
 
     while total_steps < total_steps_target:
         try:
-            src, tgt = next(data_iter)
-        except StopIteration:
-            # 重新开始新epoch
-            data_iter = iter(train_loader)
-            src, tgt = next(data_iter)
+            # 添加异常处理捕获CUDA内存溢出
+            try:
+                src, tgt = next(data_iter)
+            except StopIteration:
+                # 重新开始新epoch
+                data_iter = iter(train_loader)
+                src, tgt = next(data_iter)
 
-        src, tgt = src.to(device), tgt.to(device)
-        tgt_inp = tgt[:, :-1]
-        tgt_gold = tgt[:, 1:]
+            src, tgt = src.to(device), tgt.to(device)
+            tgt_inp = tgt[:, :-1]
+            tgt_gold = tgt[:, 1:]
 
-        # 训练步骤
-        optimizer.zero_grad()
+            # 训练步骤
+            optimizer.zero_grad()
 
-        # 使用混合精度包装前向计算
-        with amp.autocast(device_type=device.type,enabled=cfg["train"].get("use_fp16", True)):
-            logits = model(src, tgt_inp)
-            loss = criterion(
-                logits.reshape(-1, logits.size(-1)),
-                tgt_gold.reshape(-1),
-            )
+            # 使用混合精度包装前向计算
+            with amp.autocast(device_type=device.type,enabled=cfg["train"].get("use_fp16", True)):
+                logits = model(src, tgt_inp)
+                loss = criterion(
+                    logits.reshape(-1, logits.size(-1)),
+                    tgt_gold.reshape(-1),
+                )
 
-        # 使用缩放器进行反向传播
-        scaler.scale(loss).backward()
-        scaler.unscale_(optimizer)
-        torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)
-        scaler.step(optimizer)
-        scaler.update()
+            # 使用缩放器进行反向传播
+            scaler.scale(loss).backward()
+            scaler.unscale_(optimizer)
+            torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)
+            scaler.step(optimizer)
+            scaler.update()
 
-        # 更新统计
-        train_loss_accum += loss.item()
-        step_count += 1
-        total_steps += 1
-        pbar.update(1)
+            # 更新统计
+            train_loss_accum += loss.item()
+            step_count += 1
+            total_steps += 1
+            pbar.update(1)
 
-        # 清除中间变量，释放显存
-        del loss, src, tgt, logits, tgt_gold, tgt_inp
-        optimizer.zero_grad()
-        torch.cuda.empty_cache()
+            # 清除中间变量，释放显存
+            del loss, src, tgt, logits, tgt_gold, tgt_inp
+            optimizer.zero_grad()
+            torch.cuda.empty_cache()
 
-        # 定期记录训练损失
-        if total_steps % log_interval == 0:
-            avg_train_loss = train_loss_accum / step_count
-            swanlab.log({"train_loss": avg_train_loss})
-            train_loss_accum = 0.0
-            step_count = 0
-            pbar.set_postfix(train_loss=f"{avg_train_loss:.4f}", step=total_steps)
+            # 定期记录训练损失
+            if total_steps % log_interval == 0:
+                avg_train_loss = train_loss_accum / step_count
+                swanlab.log({"train_loss": avg_train_loss})
+                train_loss_accum = 0.0
+                step_count = 0
+                pbar.set_postfix(train_loss=f"{avg_train_loss:.4f}", step=total_steps)
 
-        # 定期验证
-        if total_steps % val_interval == 0:
-            val_loss = validate_one_epoch(
-                model, val_loader, criterion, device, 
-                use_fp16=cfg["train"].get("use_fp16", True)  # 添加FP16支持参数
-            )
-            swanlab.log({"val_loss": val_loss})
-            pbar.set_postfix(val_loss=f"{val_loss:.4f}", step=total_steps)
+            # 定期验证
+            if total_steps % val_interval == 0:
+                val_loss = validate_one_epoch(
+                    model, val_loader, criterion, device, 
+                    use_fp16=cfg["train"].get("use_fp16", True)  # 添加FP16支持参数
+                )
+                swanlab.log({"val_loss": val_loss})
+                pbar.set_postfix(val_loss=f"{val_loss:.4f}", step=total_steps)
 
-            # 保存最佳模型
-            if val_loss < best_val:
-                best_val = val_loss
-                ckpt_path = save_dir / "best_model.pt"
+                # 保存最佳模型
+                if val_loss < best_val:
+                    best_val = val_loss
+                    ckpt_path = save_dir / "best_model.pt"
+                    torch.save(
+                        {
+                            "model_state_dict": model.state_dict(),
+                            "tokenizer_state": {
+                                "src_vocab": tokenizer.src_vocab,
+                                "tgt_vocab": tokenizer.tgt_vocab,
+                            },
+                            "config": cfg,
+                            "step": total_steps,
+                        },
+                        ckpt_path,
+                    )
+                    print(f"\nNew best model saved to {ckpt_path} at step {total_steps}")
+
+            # 定期保存检查点
+            if total_steps % save_every == 0:
+                ckpt_path = save_dir / f"model_step_{total_steps}.pt"
                 torch.save(
                     {
                         "model_state_dict": model.state_dict(),
@@ -171,32 +190,21 @@ def train_with_step_logging(
                     },
                     ckpt_path,
                 )
-                print(f"\nNew best model saved to {ckpt_path} at step {total_steps}")
+                print(f"Model at step {total_steps} saved to {ckpt_path}")
 
-        # 定期保存检查点
-        if total_steps % save_every == 0:
-            ckpt_path = save_dir / f"model_step_{total_steps}.pt"
-            torch.save(
-                {
-                    "model_state_dict": model.state_dict(),
-                    "tokenizer_state": {
-                        "src_vocab": tokenizer.src_vocab,
-                        "tgt_vocab": tokenizer.tgt_vocab,
-                    },
-                    "config": cfg,
-                    "step": total_steps,
-                },
-                ckpt_path,
-            )
-            print(f"Model at step {total_steps} saved to {ckpt_path}")
+                # 学习率调度 - 基于验证周期
+                if not cfg["train"].get("scheduler_per_step", False):
+                    scheduler.step()  # 每个验证周期后调用
 
-            # 学习率调度 - 基于验证周期
-            if not cfg["train"].get("scheduler_per_step", False):
-                scheduler.step()  # 每个验证周期后调用
+            # 学习率调度 - 基于steps
+            if cfg["train"].get("scheduler_per_step", False):
+                scheduler.step()
 
-        # 学习率调度 - 基于steps
-        if cfg["train"].get("scheduler_per_step", False):
-            scheduler.step()
+        except torch.cuda.OutOfMemoryError:
+            # 捕获CUDA内存溢出错误
+            print(f"警告: 步骤 {total_steps} 遇到CUDA内存不足，跳过当前batch")
+            torch.cuda.empty_cache()  # 清理显存
+            continue  # 继续下一个step
 
     pbar.close()
 
@@ -207,33 +215,41 @@ def validate_one_epoch(
     dataloader: DataLoader,
     criterion: nn.Module,
     device: torch.device,
-    use_fp16: bool = True  # 添加FP16支持参数
+    use_fp16: bool = True
 ) -> float:
     model.eval()
     val_loss = 0.0
     total_samples = 0
 
     for src, tgt in tqdm(dataloader, desc="Validating", leave=False):
-        src, tgt = src.to(device), tgt.to(device)
-        batch_size = src.size(0)
-        tgt_inp = tgt[:, :-1]
-        tgt_gold = tgt[:, 1:]
+        try:
+            # 添加异常处理捕获CUDA内存溢出
+            src, tgt = src.to(device), tgt.to(device)
+            batch_size = src.size(0)
+            tgt_inp = tgt[:, :-1]
+            tgt_gold = tgt[:, 1:]
 
-        # 使用混合精度包装验证阶段的前向计算
-        with amp.autocast(device_type=device.type,enabled=use_fp16):
-            logits = model(src, tgt_inp)
-            del src, tgt, tgt_inp  # 释放中间变量
-            loss = criterion(
-                logits.reshape(-1, logits.size(-1)),
-                tgt_gold.reshape(-1),
-            )
+            # 使用混合精度包装验证阶段的前向计算
+            with amp.autocast(device_type=device.type,enabled=use_fp16):
+                logits = model(src, tgt_inp)
+                del src, tgt, tgt_inp  # 释放中间变量
+                loss = criterion(
+                    logits.reshape(-1, logits.size(-1)),
+                    tgt_gold.reshape(-1),
+                )
 
-        # 释放中间变量
+            # 释放中间变量
         
-        val_loss += loss.item() * batch_size
-        total_samples += batch_size
-        del loss,logits,tgt_gold
-        torch.cuda.empty_cache()
+            val_loss += loss.item() * batch_size
+            total_samples += batch_size
+            del loss,logits,tgt_gold
+            torch.cuda.empty_cache()
+
+        except torch.cuda.OutOfMemoryError:
+            # 捕获CUDA内存溢出错误
+            print("警告: 验证过程遇到CUDA内存不足，跳过当前batch")
+            torch.cuda.empty_cache()  # 清理显存
+            continue  # 继续下一个batch
 
     return val_loss / total_samples
 

@@ -58,13 +58,26 @@ def collate_fn(
     所有样本按最长句子进行 padding
     """
     src, tgt = zip(*batch)  # 两个 list
+
+    idxs_to_remove=[i for i, s in enumerate(src) if len(s) > 85]
+    idxs_to_remove.extend([i for i,t in enumerate(tgt) if len(t) > 85])
+    idxs_to_remove=set(idxs_to_remove)
+
+    # # 测试最长序列
+    # pad_len=85
+    # if len(src[0]) <= pad_len:
+    #     src,tgt=list(src),list(tgt)
+    #     src[0] = list(src[0]) + [0] * (pad_len - len(src[0]))
+    #     # tgt[0] = list(src[0]) + [0] * (pad_len - len(tgt[0]))
+    #     src,tgt=tuple(src),tuple(tgt)
+
     src_pad = pad_sequence(
-        [torch.tensor(s, dtype=torch.long) if len(s) < 85 else torch.zeros(1) for s in src ],
+        [torch.tensor(s, dtype=torch.long) if i not in idxs_to_remove else torch.zeros(1,dtype=torch.long) for i,s in enumerate(src) ],
         batch_first=True,
         padding_value=pad_id,
     )
     tgt_pad = pad_sequence(
-        [torch.tensor(t, dtype=torch.long) if len(t) < 85 else torch.zeros(1) for t in tgt ],
+        [torch.tensor(t, dtype=torch.long) if i not in idxs_to_remove else torch.zeros(1,dtype=torch.long) for i,t in enumerate(tgt) ],
         batch_first=True,
         padding_value=pad_id,
     )
