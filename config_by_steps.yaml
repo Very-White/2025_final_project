@@ -13,11 +13,12 @@ model:
 # ------------- 训练超参 ----------------
 train:
   batch_size: 4
-  lr: 0.00005
+  lr: 0.00025
   weight_decay: 0.00005
   scheduler_per_step: true
   lr_step: 80000             # StepLR：每多少 steps 衰减
   lr_gamma: 0.9          # 衰减系数
+  warmup_steps: 24000  # 新增warmup参数
   save_dir: runs         # 存 ckpt 的文件夹
   num_workers: 0         # 最好不要修改
   total_steps: 800000  # 总训练步数

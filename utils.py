@@ -45,6 +45,8 @@ class StreamTranslationDataset(IterableDataset):
         """流式迭代器，逐行读取JSONL文件"""
         with open(self.file_path, "r", encoding="utf-8") as f:
             for line in f:
+                if line.strip()=="":
+                    continue
                 obj = json.loads(line)
                 yield obj["src_ids"], obj["tgt_ids"]
 

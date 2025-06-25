@@ -97,6 +97,14 @@ def train_with_step_logging(
     # 进度条
     pbar = tqdm(total=total_steps_target, desc="Training")
 
+    # 添加warmup调度器
+    warmup_steps = cfg["train"].get("warmup_steps", 0)
+    if warmup_steps > 0:
+        warmup_scheduler = optim.lr_scheduler.LambdaLR(
+            optimizer,
+            lr_lambda=lambda step: min(1.0, (step + 1) / warmup_steps)
+        )
+
     while total_steps < total_steps_target:
         try:
             # 添加异常处理捕获CUDA内存溢出
@@ -196,9 +204,15 @@ def train_with_step_logging(
                 if not cfg["train"].get("scheduler_per_step", False):
                     scheduler.step()  # 每个验证周期后调用
 
+            # 应用warmup调度器（如果启用）
+            if warmup_steps > 0 and total_steps < warmup_steps:
+                warmup_scheduler.step()
+                
             # 学习率调度 - 基于steps
             if cfg["train"].get("scheduler_per_step", False):
-                scheduler.step()
+                # 只有在warmup阶段结束后才应用主调度器
+                if total_steps >= warmup_steps:
+                    scheduler.step()
 
         except torch.cuda.OutOfMemoryError:
             # 捕获CUDA内存溢出错误
@@ -318,6 +332,8 @@ def main() -> None:
         eps=1e-9,
         weight_decay=cfg["train"].get("weight_decay", 0.0),
     )
+    
+    # 主学习率调度器（仅在warmup阶段结束后生效）
     scheduler = StepLR(
         optimizer,
         step_size=cfg["train"].get("lr_step", 10),
