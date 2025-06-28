@@ -1,0 +1,1202 @@
+[
+  {
+    "src": "记录指出 HMX-1 曾询问此次活动是否违反了该法案。",
+    "ref": "Records indicate that <unk> inquired about whether the event might violate the provision.",
+    "hyp": "The records indicate that <unk> asked if the activity was in violation of the law.",
+    "hyp_id": "7bb6438722d4d4fd3ce7b89a75e92534579f46dbc7df51f3b6bb048fb8b85afe"
+  },
+  {
+    "src": "该指挥官写道“我们问的一个问题是这是否违反了《哈奇法案》，并被告知没有违反。”",
+    "ref": "\"One question we asked was if it was a violation of the Hatch Act and were informed it was not,\" the commander wrote.",
+    "hyp": "One question we asked was whether it was in violation of the Act of <unk> and was told not to <unk> the commander wrote.",
+    "hyp_id": "407d7a52caf380328bbf53fb387ebc7311eace33fdd696bd31ccd29b03e6d5d2"
+  },
+  {
+    "src": "“听起来你被锁住了啊，”副司令回复道。",
+    "ref": "<unk> like you are <unk> the Deputy Commandant replied.",
+    "hyp": "\"You sound locked up, \" the deputy general replied .",
+    "hyp_id": "fcda9ae1933f4a92e97852217f98b85e9da6cf844921cca488369f20f63dc2f4"
+  },
+  {
+    "src": "白宫将此次“美国制造”活动定义为官方活动，因此不受《哈奇法案》管辖。",
+    "ref": "The \"Made in America\" event was designated an official event by the White House, and would not have been covered by the Hatch Act.",
+    "hyp": "The White House defined the <unk> as an official activity and therefore not subject to the U. S.",
+    "hyp_id": "2ec579bff7f6c9a9427259b877e55fd79312fdda7a32ea121fcca869a5364125"
+  },
+  {
+    "src": "但是即使是官方活动也带有政治色彩。",
+    "ref": "But even official events have political overtones.",
+    "hyp": "But even official activities are <unk>",
+    "hyp_id": "0f62ee2a764560b1d7308f02836282affc4196a14764f18e4f95841fba29b892"
+  },
+  {
+    "src": "活动中，总统推行当时参议院的议题：医疗改革，并大肆吹捧对政府法规的管控。",
+    "ref": "At the event, the President made a push for healthcare reform efforts then underway in the Senate and touted efforts to rein in government regulations.",
+    "hyp": "In the event, the president carried out the Senate issue at the time of the reform of health care and widely praised the control of government rules.",
+    "hyp_id": "d66d07a8d1f02546c4f86ed9cd863086a495d1acbde5a110970d62fd4f280ded"
+  },
+  {
+    "src": "将海军陆战队一号或空军一号飞机用于政治宣传目的已经不是什么新鲜事。",
+    "ref": "Using the aircraft known as Marine One or Air Force One for politically advantageous purposes is hardly a new phenomenon.",
+    "hyp": "It is not new to use Marine Force One or Air Force One aircraft for political political criticism.",
+    "hyp_id": "77c9e72cd4176ae8ec3202a755a34eb47382d3162fe28111437104b94109b90b"
+  },
+  {
+    "src": "历届总统都被要求出行需乘坐这些飞机。",
+    "ref": "Presidents are required to use them for travel.",
+    "hyp": "The president was asked to take the planes for a trip.",
+    "hyp_id": "15d5aec4bdd267947ee8809905fcb1b9700157c08876d49fca2c1678277088a8"
+  },
+  {
+    "src": "但是仅为拍照目的将其征用并不常见。",
+    "ref": "But requisitioning their use solely for a <unk> is unusual.",
+    "hyp": "But it is not common to just take pictures for the sake of taking the photo .",
+    "hyp_id": "e343568825818ee9cc4529a5ac6b29da4f40b402575e34eb894154638653c1de"
+  },
+  {
+    "src": "二月份特朗普就受到关注，当时是在佛罗里达州墨尔本，总统专机慢慢滑行，最终停到了他第一次竞选集会的背景<unk>，而他的推特账户充斥着对前任总统使用总统专机的抱怨信息。",
+    "ref": "Trump drew scrutiny in February when the presidential airplane taxied to the backdrop of his first campaign rally in Melbourne, Fla., and his Twitter account is flush with messages complaining about his predecessor's use of the presidential aircraft.",
+    "hyp": "Mr. Trump was in attention in February when he was in Florida when his presidential plane slowly rolled off his first campaign rally in the background of <unk> and his account was full of complaints about his former president using the presidential plane.",
+    "hyp_id": "91a74b41fa1291824ea803bba544b6a99f47a1b5f6d2ec12b0488b8571df71ad"
+  },
+  {
+    "src": "白宫副新闻发言人林赛·沃尔特斯称“白宫因此次‘美国制造’展览而激动不已，此次展览展示了来自全部 50 个州的产品，这些产品均由美国工人使用美国材料制造。”",
+    "ref": "\"The White House is thrilled with the 'Made In <unk> showcase that featured products from all 50 states that are made by American workers with American <unk> said White House deputy press secretary Lindsay <unk>",
+    "hyp": "\"The White House was so excited about the <unk> show that it showed products made by American workers from all 50 states that were made of American material, \" White House Vice News spokesman Robert U.",
+    "hyp_id": "f56bbd7d1c0c99b741f167222cf31b53124b146a4c54154cef38e85e996be750"
+  },
+  {
+    "src": "HMX-1 机组人员经常在华盛顿地区附近和南草坪进行飞行训练，练习将美国总统准确安置在白宫。",
+    "ref": "<unk> crews frequently perform training flights around the Washington area and at the South Lawn to practice depositing the President of the United States at the White House with inches of precision.",
+    "hyp": "The <unk> crew often <unk> in the area near Washington and the South lawn to practice the exact U.S. president at the White House.",
+    "hyp_id": "8f8ecef2cc770845e8c55d74195aa95a7c37fc75c8fa7152343fdbad7266aee7"
+  },
+  {
+    "src": "7 月初特朗普在德国参加 G-20 峰会期间，HMX-1 在白宫练习了 58 次着陆。",
+    "ref": "When Trump was at the G-20 summit in Germany in early July, <unk> conducted 58 practice landings at the White House.",
+    "hyp": "During the <unk> summit in Germany in early July, the <unk> had a <unk> landing at the White House.",
+    "hyp_id": "3a43266be6bea0e66ff1a2a8d2fdacebdbc58e10f22fde9d22a168adf87d871d"
+  },
+  {
+    "src": "一位官员称，此次美国制造活动飞行计入本月机组人员训练要求中。",
+    "ref": "The flight for the Made in America event counted toward the <unk> training requirement for the month, an official said.",
+    "hyp": "The U. S. manufacturing campaign was included in the requirements for this month for the crew training, an official said.",
+    "hyp_id": "a425ba24e3fdae6b14b717bfac42ca7d5fb1d2abfae39b666792c26172b2efc4"
+  },
+  {
+    "src": "直升机部队当天也额外飞行了 11 个小时的“非总统支援任务”。",
+    "ref": "Unit helicopters also flew an additional 11 hours that day for <unk> support <unk>",
+    "hyp": "The helicopter troops also flew an extra 11 hours of <unk> support <unk>",
+    "hyp_id": "25d885bab71fcd74492419ba8025c418d71503db25aa2ab9ca31b32752105cb4"
+  },
+  {
+    "src": "白宫方面称纳税人并没有承担此次活动中任何其他道具的费用。",
+    "ref": "The White House said taxpayers did not pick up the burden for any of the other props featured at the event.",
+    "hyp": "The White House said the tax was not paid for by the tax on any other items in the event.",
+    "hyp_id": "d9890fd2b14ef2def4980e2685950592587e97863ac9ea23bbf3d62c5facd921"
+  },
+  {
+    "src": "<unk> 发言人称该公司并未参与安排南草坪直升机展示。",
+    "ref": "A spokesperson for Sikorsky said the company was not involved in arranging for the helicopter to be displayed on the South Lawn.",
+    "hyp": "A spokesman for <unk> said the company was not involved in the arrangement of a South lawn helicopter show.",
+    "hyp_id": "1a86a4c780550de258304917ffdb746ad057cdf6900851eb1ef92b7c0e53de13"
+  },
+  {
+    "src": "HMX-1 并没有保留总统飞行的预算记录，因此要确定此次活动产生的准确费用非常困难。",
+    "ref": "<unk> doesn't maintain budgetary records for presidential flights, and determining the precise cost incurred by the event is difficult.",
+    "hyp": "The <unk> does not keep the budget records for the presidential flight and therefore it is difficult to determine the exact cost of the <unk>",
+    "hyp_id": "98784b14bc28a2f6987703e948c7604407fa2bb53cae245749eafa79da25cde6"
+  },
+  {
+    "src": "但是根据国防部 2017 财政年度的小时费用记载，VH-3D 的国防部可报销费用为每飞行小时 24,380 美元。",
+    "ref": "But according to Department of Defense hourly rates for fiscal year 2017, the DoD reimbursement rate for the <unk> is <unk> per flight hour.",
+    "hyp": "But according to the Defense Department in the hours of fiscal year of the Defense Department of the cost of the <unk> the cost of the Defense Department can be paid at <unk> per flight hours.",
+    "hyp_id": "99bce97c7db701b9432d18790c60d291818e492b2c51b6c8abeac3223d718003"
+  },
+  {
+    "src": "部队记录记录了飞机每次从弗吉尼亚州匡<unk>海军陆战队机场的基地飞行的时间为 30 分钟。",
+    "ref": "Unit records record the aircraft flight time as 30 minutes each way from its home base at Marine Corps Air Facility <unk> in Virginia.",
+    "hyp": "The troops recorded the time of each flight from the Marine Marine Air Force airport in Virginia at the base of 30 minutes.",
+    "hyp_id": "a9a92e29bb1b7cb35fb93975ba29ef8b4c27e8f748acfd9fb7b14ad5cd0684e6"
+  },
+  {
+    "src": "白宫方面称操作该直升机的成本远低于该费用。",
+    "ref": "The White House argues the true cost of operating the helicopter is well below that rate.",
+    "hyp": "The White House said the cost of operating the helicopter was well below the cost.",
+    "hyp_id": "a57ee5f89a2913246061d5c7fd3efb9341f9583db50581d1502925c6bf5aa8a3"
+  },
+  {
+    "src": "沃尔特斯称“基于可报销<unk>估计纳税人所出的费用非常有误导性。",
+    "ref": "\"To place a cost to taxpayers based on the reimbursement rate estimates is highly <unk> Walters said.",
+    "hyp": "\"The cost of the tax on the <unk> <unk> is very much a very difficult one, \" said <unk>",
+    "hyp_id": "972e107d6430eb692389b5f56f8115c554b3e218d866ce2550fdcdac2414b635"
+  },
+  {
+    "src": "这些估计的费用包括人员费用、维护费和其他很多包括在年度拨款中的沉没成本。",
+    "ref": "\"These rate estimates include personnel, maintenance and many other sunk costs that are included in annual <unk>",
+    "hyp": "These estimates include the cost of the staff and maintenance costs and many other other <unk> costs included in the annual funding process.",
+    "hyp_id": "79d59cf98d266ca399fb2f6a8f4756607d42ec30315ade8c46ac4142149bddcb"
+  },
+  {
+    "src": "一份 2015 年的 RAND 研究显示，国防部可报销费用并不包括人员费用，但确实包括油费、维护费和订约成本。",
+    "ref": "According to a 2015 RAND study, DoD reimbursement rates do not include the cost of personnel, but do account for fuel, maintenance, and contracting costs.",
+    "hyp": "A <unk> study in <unk> found that the Defense Department cost of the cost of the cost of the cost of the personnel does not include the cost of the cost of the <unk>",
+    "hyp_id": "2c899e2662fdec4712b6ae4104068fc82aac4793e7305ca8636d4eae4fc40421"
+  },
+  {
+    "src": "当时，前白宫新闻发言人肖恩·斯派克为此次活动使用该直升机辩护，",
+    "ref": "At the time, former White House press secretary Sean Spicer defended the use of the helicopter for the event.",
+    "hyp": "At the time, former White House press spokesman <unk> <unk> defended the use of the helicopter for the event",
+    "hyp_id": "b6850213e54c3fcddf189f4a77abb32c0186508f87003a98d34cccc3c3b42330"
+  },
+  {
+    "src": "并称“想法是在本周展示美国制造的东西，",
+    "ref": "\"The idea is to showcase this week things that are made in America,\" Spicer said.",
+    "hyp": "The idea is to show what the US makes this week,",
+    "hyp_id": "f5b02c217bc1a20e95da6106f430edfa00cfaae6a7834454c4c902c7b74a8b3c"
+  },
+  {
+    "src": "而且我知道 <unk> 公司和康涅狄格州都为此感到自豪，他们都为我们的国家安全贡献了一份力量，我猜测就算没有数千也有数百人的工作要依赖于此。",
+    "ref": "\"And I know Sikorsky and the state of Connecticut are very proud of the fact that they contribute to our national security, that there are, I assume, hundreds if not thousands of people whose job depends on that.",
+    "hyp": "And I know that <unk> and <unk> are proud of their contribution to our national security, and I guess even a few thousand people are dependent on it.",
+    "hyp_id": "013404087058d065d521e17540d258fb816621ddad8a8d56d5c0b5d254f17603"
+  },
+  {
+    "src": "而且我觉得像大部分美国人一样，我们都为这架直升机和其他军事设备感到自豪，这是无数美国人不辞辛劳作出的成果。",
+    "ref": "And I think, like most Americans, we're all proud of the helicopter and other military equipment that so many Americans worked tirelessly to do.",
+    "hyp": "And I think like most Americans we are proud of this helicopter and other military equipment, and that is the result of the many hard work of the American people.",
+    "hyp_id": "31d7f38e988ddf22b3230393d93cba58ed35b3b0b31ad10a384f8650e8eaf781"
+  },
+  {
+    "src": "所以彰显这一点当然并没有不合时宜。”",
+    "ref": "So, of course, it's appropriate to highlight that.\"",
+    "hyp": "So it is not a matter of course not to show that.",
+    "hyp_id": "ba605d7004b9277883bff3524fcb1a60710a0c9c4cb14465fb53113e95284e7d"
+  },
+  {
+    "src": "我们并不清楚特朗普在活动中游览南草坪时是否与该直升机互动，但他确实坐上了消防车的驾驶座。",
+    "ref": "It wasn't clear whether Trump interacted with the helicopter as he toured the South Lawn for the event, but he did step into the driver's seat of a fire truck.",
+    "hyp": "We don't know if Trump was in the middle of a visit to the South lawn to interact with the helicopter but he did sit in the car seat of the fire engine.",
+    "hyp_id": "15ddd438adce3a91f877a8a87935559563881be85d603bc7c79951b7bf6293d1"
+  },
+  {
+    "src": "在白宫内，特朗普向 <unk> 公司代表发表讲话，拿他自己拥有的该公司飞机跟媒体开玩笑。",
+    "ref": "Inside the White House, Trump addressed Sikorsky representatives, joking with the media about his own fleet of company products.",
+    "hyp": "In the White House, Trump spoke to the <unk> company representative and made a fun of the company he owned by the plane with the media.",
+    "hyp_id": "ce13fc75913f8c55e333769d09554ffababe6af393e6c454ff8d4a71ebe1ab2b"
+  },
+  {
+    "src": "他说“我很了解 <unk> 飞机。我有三架。”",
+    "ref": "\"I know Sikorsky very well,\" the President said, \"I have three of them.\"",
+    "hyp": "\"I know about the <unk> plane. I have three <unk> he said.",
+    "hyp_id": "d3bd05dbd17545b45dacbca0f5f851676f414753543fb7ff67354672c4945ecd"
+  },
+  {
+    "src": "<unk>关于全面从严治党的<unk>",
+    "ref": "Brilliant Metaphors of Xi Jinping about Comprehensively Strengthening Party Discipline",
+    "hyp": "<unk> on the overall <unk>",
+    "hyp_id": "d7265cf323ec44794e544df20c932392dad798e80a794228935f079db641881a"
+  },
+  {
+    "src": "1月11日，在<unk><unk>中央纪律检查委员会第二次全体会议上，<unk>总书记发表重要讲话，强调“以永远在路上的执着把全面从严治党引向深入，开创全面从严治党新局面”。",
+    "ref": "During the second plenary session of the 19th Central Commission for Discipline Inspection of the Communist Party of China, General Secretary Xi Jinping gave a keynote speech on January 11, emphasizing that “we should keep marching ahead on the road of adhering to the principle of comprehensively strengthening party discipline and creating a new situation for comprehensively strengthening party <unk>",
+    "hyp": "On Jan. 11, <unk> issued an important speech at the second session of the Central Committee of the National People's Congress of the Central Committee of the Central Committee of the National People's Congress <unk>",
+    "hyp_id": "e35bd3804ca973fb0721697ec7b54084319c6a136db59aa0e074b880ff9ce4ab"
+  },
+  {
+    "src": "关于全面从严治党，<unk>总书记有过很多形象的比喻，一同回顾！",
+    "ref": "With respect to comprehensively strengthening party discipline, General Secretary Xi Jinping has given many vivid and impressive metaphors, so let’s review them together!",
+    "hyp": "On the overall <unk> <unk> <unk> has a lot of image of the metaphor together, together to review the !",
+    "hyp_id": "09ac68ba1f9e4dff9503d4654ed0e0295cd20ebfffa12f9b0f06aaee77b47aa5"
+  },
+  {
+    "src": "“老虎”要露头就打，“苍蝇”乱飞也要拍。要推动全面从严治党向基层延伸，严厉整治发生在群众身边的腐败问题。",
+    "ref": "We should fight against <unk> <unk> corrupt <unk> immediately after we find evidence, and we should also deal with those <unk> <unk> corrupt <unk> at the same time. We should spread the principle of comprehensively strengthening party discipline to grass-roots party organizations and make every effort to deal with those corruption problems in daily life of the general public.",
+    "hyp": "The tiger is to fight the tiger and the fly to be taken as well. To push the whole course of the war to the basic level, we must make a hard <unk>",
+    "hyp_id": "f8704404e081a17ba70dba9608f8db8ce714c256e0e891160e68e77733425996"
+  },
+  {
+    "src": "——2018年1月11日，<unk>在<unk><unk>中央纪律检查委员会第二次全体会议上发表重要讲话",
+    "ref": "-- On January 11, 2018, Xi Jinping gave a keynote speech during the second plenary session of the 19th Central Commission for Discipline Inspection of the Communist Party of China",
+    "hyp": "On 11 January, the second session of the National People's Congress of the Central Committee of the Central Committee of the Central Committee of the Central Committee of the Central Committee of the Central Committee",
+    "hyp_id": "9d634c47ab84e1f4f182de833355366414d92a756e7ae58ab5a52a9d04da12e8"
+  },
+  {
+    "src": "广大纪检监察干部要做到忠诚坚定、担当尽责、遵纪守法、清正廉洁，确保党和人民赋予的权力不被滥用、惩恶扬善的利剑永不蒙尘。",
+    "ref": "Officials responsible for discipline inspection and supervision at all levels should be loyal and determined, responsible, discipline and law-abiding, honest and upright in order to ensure that the power granted by the Party and the people will not be abused, and the sharp sword used for praising virtue and punishing vice will never be covered by dust.",
+    "hyp": "The general supervision and supervision of the cadres to achieve loyalty and firm and responsible and strict law, to ensure that the power given by the Party and people is not being abuse and evil will never be put to work.",
+    "hyp_id": "a75aa916a7836bdf2f7936de3987787a40220f748bf47ecf27f46806832ac453"
+  },
+  {
+    "src": "——2018年1月11日，<unk>在<unk><unk>中央纪律检查委员会第二次全体会议上发表重要讲话",
+    "ref": "-- On January 11, 2018, Xi Jinping gave a keynote speech during the second plenary session of the 19th Central Commission for Discipline Inspection of the Communist Party of China",
+    "hyp": "On 11 January, the second session of the National People's Congress of the Central Committee of the Central Committee of the Central Committee of the Central Committee of the Central Committee of the Central Committee",
+    "hyp_id": "9d634c47ab84e1f4f182de833355366414d92a756e7ae58ab5a52a9d04da12e8"
+  },
+  {
+    "src": "抓落实来不得<unk>，<unk>口号、不行动不行，单单开会、<unk>不够，必须落到实处。",
+    "ref": "It is impossible to ensure implementation of policies by taking showy and impractical actions and shouting slogans. Without practical actions, we can’t ensure proper implementation of policies only by holding meetings and issuing documents. We must do our works in a practical manner.",
+    "hyp": "To be able to implement the <unk> <unk> <unk> and not to be acting and not to be in action is a matter of <unk> <unk> <unk> <unk>",
+    "hyp_id": "c0beb4645208112137de8e5fc43f37b4a05fa7d8e6d592a51c4abcaabcfd4610"
+  },
+  {
+    "src": "——2017年12月25日至26日，<unk>在中央政治局召开的民主生活会上发表重要讲话",
+    "ref": "-- During December 25 and 26, 2017, Xi Jinping gave a keynote speech at the meeting of democratic life held by Political Bureau of the Central Committee of the CPC",
+    "hyp": "On December 25 to 26, of the year of the year of the Central Committee of the Central Committee of the Central Committee of the Central Committee of the Central Committee of the Central Committee of the Central Committee",
+    "hyp_id": "82a7787c1c0f3566dfdd8e5188182917e25091537dac858a606cd6e5518a7a8f"
+  },
+  {
+    "src": "中央政治局的同志都应该明史<unk>，不能颠倒了公私、混淆了是非、模糊了义利、放纵了亲情，要带头树好廉洁自律的“风向标”，推动形成清正廉洁的党风。",
+    "ref": "Our comrades from the Political Bureau should learn about history and be reasonable and must not confuse public and private interests, call white black, blur the boundary between righteousness and benefits or handle issues based on nepotism. You should erect a <unk> <unk> by taking the lead in adhering to honesty and self-discipline and help establish a work style for the party characterized by honesty and integrity.",
+    "hyp": "The party of the Central Committee of the Central Committee should be <unk> <unk> and not be able to turn the public and public and the public and the right and the right to be confused and be right and wrong with the right to be a good and bad <unk>",
+    "hyp_id": "5954a34a8eea989e94823f667b14ed65878db7038c91e9150e5fb16150dac758"
+  },
+  {
+    "src": "——2017年12月25日至26日，<unk>在中央政治局召开的民主生活会上发表重要讲话",
+    "ref": "-- During December 25 and 26, 2017, Xi Jinping gave a keynote speech at the meeting of democratic life held by Political Bureau of the Central Committee of the CPC",
+    "hyp": "On December 25 to 26, of the year of the year of the Central Committee of the Central Committee of the Central Committee of the Central Committee of the Central Committee of the Central Committee of the Central Committee",
+    "hyp_id": "82a7787c1c0f3566dfdd8e5188182917e25091537dac858a606cd6e5518a7a8f"
+  },
+  {
+    "src": "用一贤人则<unk>，见贤思齐就蔚然成风。选什么人就是风向标，就有什么样的干部作风，乃至就有什么样的党风。",
+    "ref": "A person of virtue will attract a group of persons of virtue, so all people will emulate those better than themselves and the action will become a common practice. Personnel appointment serves as the <unk> <unk> which will determine the work style of cadres and even the work style of the Party.",
+    "hyp": "With a wise man is <unk> the more the more popular of the <unk> the person who choose is the <unk> there is what kind of <unk> even what kind of class.",
+    "hyp_id": "faaef0c350b5b047ce08a8b849bd0d739cc31b71edd6af260cd8a482acdbede4"
+  },
+  {
+    "src": "——2013年6月28日，<unk>在全国组织工作会议上的讲话",
+    "ref": "-- From the speech delivered by Xi Jinping at the National Organization Working Conference on June 28, 2013",
+    "hyp": "On June 28, 2013, <unk> spoke at the National Organization for Work",
+    "hyp_id": "025f4757588960a43f55a42c16617deeeed496db4164e39dda0fc9761946ade0"
+  },
+  {
+    "src": "打铁必须自身硬。党要团结带领人民进行伟大斗争、推进伟大事业、实现伟大梦想，必须毫不动摇坚持和完善党的领导，毫不动摇把党建设得更加坚强有力。",
+    "ref": "A blacksmith must have necessary skills in order to do his job in a great way. The Party should unite the people and lead them in fighting great battles, pushing forward great causes and realizing great dreams. We should adhere to and improve the Party’s leadership and make the Party become stronger <unk>",
+    "hyp": "The Party of the Party must be hard on its own and lead the people to great struggle and realize great dreams and to insist and perfect the party and build the party more powerful and full of energy.",
+    "hyp_id": "3546cc09c97b4bfc6be8dfd7a6eb75ce9b9b5f0744e3711f8bfb3977e674110d"
+  },
+  {
+    "src": "——2017年10月18日，<unk>在<unk><unk>全国代表大会上的报告指出",
+    "ref": "-- On October 18, 2017, Xi Jinping pointed out the following during the 19th CPC National Congress",
+    "hyp": "On October 18, of the <unk> National Congress in <unk>",
+    "hyp_id": "51714be5527e0e65d0fbdbf0cb83057ca03acb0fd16e395f06368e91312f0f9e"
+  },
+  {
+    "src": "当前，反腐败斗争形势依然严峻复杂，巩固压倒性态势、夺取压倒性胜利的决心必须坚如磐石。",
+    "ref": "At present, the anti-corruption campaign is still facing a complex and challenging situation, so we must be <unk> determined to consolidate the overwhelming trend and win an overwhelming victory.",
+    "hyp": "At present, the situation of the fight against corruption is still very complex, and the determination to reinforce the <unk> and to take the <unk> must be well and well known.",
+    "hyp_id": "137f810beceb32aa58a28df81388fd63c64f98e6bbd2e760a718e8f06195cf6b"
+  },
+  {
+    "src": "——2017年10月18日，<unk>在<unk><unk>全国代表大会上的报告指出",
+    "ref": "-- On October 18, 2017, Xi Jinping pointed out the following during the 19th CPC National Congress",
+    "hyp": "On October 18, of the <unk> National Congress in <unk>",
+    "hyp_id": "51714be5527e0e65d0fbdbf0cb83057ca03acb0fd16e395f06368e91312f0f9e"
+  },
+  {
+    "src": "坚持反腐败无禁区、全覆盖、零容忍，坚定不移“<unk>”、“<unk>”、“猎狐”，不敢腐的目标初步实现，不能腐的笼子<unk><unk>，不想腐的堤坝正在构筑，反腐败斗争压倒性态势已经形成并巩固发展。",
+    "ref": "During the anti-corruption campaign, we must adhere to the principles of no forbidden zone, full coverage and zero tolerance and should be determined to <unk> against <unk> <unk> <unk> and <unk> <unk> The goal of ensuring that officials dare not become corrupt is primarily achieved. The cage used for preventing corruption is getting increasingly secure, and the dam that can block intention of corruption is being built. An overwhelming trend of the anti-corruption campaign takes shape and is becoming increasingly consolidated and developed.",
+    "hyp": "We will not be able to achieve the goal of the <unk> but we cannot be too tired to be in the <unk> We don't want to be in the construction of the <unk>",
+    "hyp_id": "b414c58284bad6db8f61d18c40fd36bcf26c555b408e58ce521f756578c90cde"
+  },
+  {
+    "src": "——2017年10月18日，<unk>在<unk><unk>全国代表大会上的报告指出",
+    "ref": "-- On October 18, 2017, Xi Jinping pointed out the following during the 19th CPC National Congress",
+    "hyp": "On October 18, of the <unk> National Congress in <unk>",
+    "hyp_id": "51714be5527e0e65d0fbdbf0cb83057ca03acb0fd16e395f06368e91312f0f9e"
+  },
+  {
+    "src": "各级领导干部要带头执行《准则》、《条例》，把好<unk>“方向盘”，系好廉洁“安全带”，<unk>，扶正祛邪，自觉为营造<unk>正的政治生态履职尽责、作出贡献。",
+    "ref": "Leading cadres at all levels should take the lead in implementing the Codes and Rules, hold the <unk> <unk> in exercising power and fasten the <unk> <unk> for ensuring integrity. In addition, they should also make efforts to eliminate vice and exalt virtue, strengthen resistance against corruption and eliminate evil factors, perform their duties in creating an honest and upright political ecology and make their contributions during the process.",
+    "hyp": "The leaders at all levels will be responsible for the implementation of the <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>",
+    "hyp_id": "f01e8eb2fe2608bb3f355e3d675172462fd8db9cb531c38885ff10b9d735b134"
+  },
+  {
+    "src": "——2017年3月8日，<unk>在参加<unk>全国人大五次会议四川代表团审议时强调",
+    "ref": "-- On March 8, 2017, Xi Jinping emphasized the following during review of the Sichuan Delegation at the 5th session of the 12th National People's Congress",
+    "hyp": "On March 8, of the year of the year of the year of March of the year <unk> stressed that he was in the <unk> of the National People's Congress of Sichuan delegation to consider",
+    "hyp_id": "e33b375c983783c725980742adc76a8093fd1af16a652f7151d6ba49dd145338"
+  },
+  {
+    "src": "我们党反腐败不是<unk>的“势利店”，不是争权夺利的“纸牌屋”，也不是<unk>的“烂尾楼”。",
+    "ref": "The anti-corruption campaign of the CPC isn’t a <unk> <unk> that treating different people with different attitudes, or a <unk> of <unk> characterized by fighting for power and benefit, or an <unk> <unk> having a beginning but no end.",
+    "hyp": "Our party is not the <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>",
+    "hyp_id": "252dc1e32c740dead1f707be6b4e477fa5467b8e519e66f9b31b8d74eac6bf49"
+  },
+  {
+    "src": "——2016年1月12日，<unk>在第十八届中央纪律检查委员会第六次全体会议上的讲话",
+    "ref": "-- From the speech delivered by Xi Jinping at the 6th plenary session of the 18th Central Commission for Discipline Inspection of the Communist Party of China on January 12, 2016",
+    "hyp": "On January 12, 1978 <unk> spoke at the sixth session of the Central Committee of the National People's Congress of the Central Committee of the Central Committee of the Central Committee of the Central Committee",
+    "hyp_id": "cb540273369c338ffd3c8dca52f54041751dedab82f2a63e27010c634e5ca7a0"
+  },
+  {
+    "src": "实现全面建成小康社会奋斗目标、实现中华民族伟大复兴的中国梦，关键在于培养造就一支具有铁一般信仰、铁一般信念、铁一般纪律、铁一般担当的干部队伍。",
+    "ref": "To achieve the goal of building a moderately well-off society in an all-round way and realize the Chinese Dream of achieving the great rejuvenation of the Chinese nation, it is key to cultivate and build a cadre team with <unk> faith, belief, discipline and sense of responsibility.",
+    "hyp": "The key to the Chinese dream of a full and full <unk> society is to cultivate a group of people with the common faith and the common belief of the iron and the iron and the iron of the steel.",
+    "hyp_id": "3ff02477b9f053252fe921d705699ba928b9ca5d1c75cd6ac5ef61a60a82034b"
+  },
+  {
+    "src": "——2015年12月11日，<unk>在全国党校工作会议上的讲话",
+    "ref": "-- From the speech delivered by Xi Jinping at National Party School Working Conference on December 11, 2015",
+    "hyp": "On December 11, 2015. <unk> at the National Party Committee working meeting",
+    "hyp_id": "10eae0fbc22c2298bd01788cb60875d9eaeca33ea5a4d4eb00ae825ba0904b0c"
+  },
+  {
+    "src": "要深入推进反腐败斗争，下大气力拔“<unk>”、治“病树”、正“<unk>”，使领导干部受到警醒、警示、警戒。",
+    "ref": "We should push forward the anti-corruption campaign in an in-depth manner and make great efforts to uproot <unk> <unk> fix <unk> <unk> and make <unk> <unk> become upright in order to alert, warn and caution leading cadres.",
+    "hyp": "To promote the fight against corruption in a deep way, the great strength of the <unk> <unk> <unk> <unk> <unk> to lead the cadres to be alert and alert to the attention.",
+    "hyp_id": "d89d8e88d4efa2c9539285deb81f864fcd0fab842c7afaebfc6fbb8444909cd3"
+  },
+  {
+    "src": "——2015年3月6日，<unk>参加<unk>全国人大三次会议江西代表团审议时指出",
+    "ref": "-- On March 6, 2015, Xi Jinping pointed out the following during review of the Jiangxi Delegation at the 3rd session of the 12th National People's Congress",
+    "hyp": "On March 6, 2015. <unk> attended the review of the three delegation of the Jiangxi Province of the People's Congress of the People's Congress of the <unk>",
+    "hyp_id": "112b133df2f6838b50e522a2f8a2521942c90646d8db91091e06b4236f185957"
+  },
+  {
+    "src": "理想信念是<unk>的精神之“钙”，必须加强思想政治建设，解决好世界观、人生观、价值观这个“总开关”问题。",
+    "ref": "Ideal and belief serve as <unk> for the spirit of members of the Communist Party, so we must strength ideological and political construction and solve any problem concerning outlook on world, outlook on life and values, which is the <unk> <unk>",
+    "hyp": "The ideal of faith is the <unk> of the spirit of <unk> and we must strengthen the political construction and solve the problem of the <unk>",
+    "hyp_id": "833f0ebfac88590a89eb93997618b1c0406b38dad6c13e8fe95cce663d6aa23f"
+  },
+  {
+    "src": "——2014年1月20日，<unk>在党的群众路线教育实践活动第一批<unk>第二批部署会议上发表重要讲话",
+    "ref": "-- On January 20, 2014, Xi Jinping gave a keynote speech at the summing-up meeting for the first batch & the deployment meeting for the second batch of educational and practical activities concerning the mass line of the Party",
+    "hyp": "On January 20, 2014. <unk> made an important speech at the first group of the party mass line education practice meeting <unk>",
+    "hyp_id": "dec8c69a5ae91625498e5734ffe69102aabcc01c97890b467a843568dd6b0bd2"
+  },
+  {
+    "src": "要切实执行组织纪律，不能搞特殊、有例外，各级党组织要<unk><unk>，使纪律真正成为带电的高压线。",
+    "ref": "We should implement organizational discipline in a practical manner and must not tolerate privilege or exception. Party organizations at all levels should dare to maintain discipline in order to make discipline become an actually live high-voltage line.",
+    "hyp": "To implement the discipline of the party in fact, we cannot make special and exception of the party organizations at all levels to <unk> the power supply of the party and make the discipline become a real power line.",
+    "hyp_id": "dfa2b791e647325f8ee3fe1e1fd2ce9e410381de040322696ff6dbb346a6c740"
+  },
+  {
+    "src": "——2014年1月14日，<unk>在十八届<unk>三次全会上发表重要讲话",
+    "ref": "-- On January 14, 2014, Xi Jinping gave a keynote speech at the 3th plenary session of the 18th Central Commission for Discipline Inspection of the Communist Party of China",
+    "hyp": "On January 14, 2014. <unk> made an important speech at the three meetings of the <unk>",
+    "hyp_id": "9a34e84b65ced50621975820589e3aa965e850ffc8ecda68912109d71601cf64"
+  },
+  {
+    "src": "批评和自我批评是一剂良药，是对同志、对自己的真正爱护。开展批评和自我批评需要勇气和党性，不能把我们防身治病的武器给丢掉了。",
+    "ref": "Criticism and self-criticism serve as a good medicine and the actual care given to our comrades and ourselves. Performing criticism and self-criticism needs courage and party spirit, and we must not lose our weapon used for defending ourselves and treating diseases.",
+    "hyp": "The criticism and the <unk> is a medicine to the gay and true love for their own.",
+    "hyp_id": "0e0637678be69f62e111b3d3296cd87ff51318623398b0a45d99ee813bd87b53"
+  },
+  {
+    "src": "——2013年9月25日，<unk>在指导河北省委常委班子专题民主生活会时强调",
+    "ref": "-- On September 25, 2013, Xi Jinping emphasized the following at the special meeting of democratic life attended by the leading group of the standing committee under the Party committee of Hebei Province",
+    "hyp": "On September 25, 2013, <unk> stressed in the guidance of the Hebei Party Committee on the <unk>",
+    "hyp_id": "70ce24f4d9e18ab8b9e57cc0ccaa997f7e492d2b23cd29f2b69ad63dc87b6c3f"
+  },
+  {
+    "src": "要加强对权力运行的制约和监督，把权力关进制度的笼子里，形成不敢腐的惩戒机制、不能腐的防范机制、不易腐的保障机制。",
+    "ref": "We should make efforts to strength restriction and supervision on exercise of power, put power into the cage formed by rules and regulations and establish a punishment mechanism which makes officials dare not to be corrupt, a prevention mechanism which makes officials unable to practice corruption and a safeguard mechanism which makes officials tend to guard against corruption.",
+    "hyp": "We should strengthen the control and supervision of the power operation, put the power in the cage of the system, form the mechanism of the <unk> and prevent the <unk>",
+    "hyp_id": "7df4d20266c302dfe115eae68a3279f57926a8b190b8078c37ab665608b12a1e"
+  },
+  {
+    "src": "——2013年1月22日，<unk>在十八届<unk>第二次全会上的讲话",
+    "ref": "-- From the speech delivered by Xi Jinping at the 2th plenary session of the 18th Central Commission for Discipline Inspection of the Communist Party of China on January 22, 2013",
+    "hyp": "On January 22, 2013, <unk> spoke at the second session of the <unk>",
+    "hyp_id": "52dea67f49ec38cbe19df0fa4492ce4e4202fe2715b09af7e81ce0ec9fed2b4d"
+  },
+  {
+    "src": "当晚，帕蒂·史密斯以白衬衫黑西装登台，为现场的1500名观众演唱迪伦名曲《暴雨将至》。",
+    "ref": "That night, Patti Smith took to the stage in a white shirt and black suit, and sang Bob <unk> <unk> in front of a live audience of 1,500 people.",
+    "hyp": "That night, in order to the white shirt black suit to the scene of the audience singing the song of the famous song of the <unk> <unk>",
+    "hyp_id": "be0f962981e6ecde0c0ebe3e209b830b3d27e1f82c88aa672267afa80f4e4057"
+  },
+  {
+    "src": "据悉，重庆市目前拥有国土资源部设立的页岩气探矿权18个和国内首个页岩气采矿权——中国石化涪陵页岩气田。",
+    "ref": "It is understood that Chongqing currently owns 18 shale gas exploration rights established by Ministry of Land and Resources as the first domestic shale gas mining rights - the Sinopec Fuling shale gas field.",
+    "hyp": "It is reported that Chongqing has the Ministry of Resources and Resources to explore 18 of the gas and the first domestic gas in the gas mining <unk> of the Chinese gas field in the gas field.",
+    "hyp_id": "7d9dcaef6f87718b8337d196893eee0a3f0b177dfa4cd98f4849a5a25e7d59f4"
+  },
+  {
+    "src": "截至2017年1月，重庆全市共完钻页岩气井368口(不含<unk>)，投产261口，近期，随着中国石化南川区<unk>南区域内4口页岩气探井测试日产量均超过20万立方米的好消息传来，全球北美以外首个商业化开采的大型页岩气田中国石化涪陵页岩气田有望按照计划在今年建成100亿立方米产能。",
+    "ref": "As for January 2017, a total of 368 shale gas wells (excluding parameter <unk> have been drilled in Chongqing, and 261 have commenced production. With recent positive news that the production volume of each of the four shale gas exploratory wells at <unk> Southern <unk> block of the <unk> District has exceeded 200,000 cubic meters per day, <unk> Fuling shale gas field, which is expected to have a planned capacity of 10 billion cubic meters this year, will become the first commercialized drilling of a large-scale shale gas field outside North America.",
+    "hyp": "As of January of October of of October of of October of of October of of 2007, the first 100 million tons of gas field in North America is expected to be in China this year with 4 <unk>",
+    "hyp_id": "c0f583b1a9326d6e7bf5ed7b6dd9ec2025e272d0b6d5caf60f9a6f178b332b74"
+  },
+  {
+    "src": "据了解，100亿立方米的页岩气田相当于一个1000万吨级的大油田。",
+    "ref": "It is understood that a 10 billion cubic meter shale gas field is equivalent to a 10 million tonne oil field.",
+    "hyp": "It is understood that 100 cubic meters of the gas field of the more than 100 million yuan equivalent of a large oil field.",
+    "hyp_id": "12c59cb03e90045748bb15b59935b86173743871b66cad7398680f296935290e"
+  },
+  {
+    "src": "据了解，页岩气作为清洁能源，100<unk>页岩气田建成后每年可减排二氧化碳1200万吨。",
+    "ref": "Shale gas is a clean energy resource. It is understood that the completion of the 10 billion cubic meter shale gas field will help cut 12 million tonnes of CO2 emission annually.",
+    "hyp": "It is understood that the gas in the gas as a clean energy, 100 <unk> in the gas field after the completion of the annual reduction of carbon dioxide <unk> million tons of oil.",
+    "hyp_id": "70960d503f99f52b0f36a526ef767f40ec18193460debbb3c89f494031923883"
+  },
+  {
+    "src": "在功能手机时代，手机的基本功能就是打电话、发短信、简单的备忘录，各种手机在功能上差距是不大的。",
+    "ref": "In a feature phone era, the basic functions of a mobile phone would be making a call, sending short text messages, and simple memos. The difference in the functions among mobile phones is quite small.",
+    "hyp": "In the mobile phone age, the basic function of the mobile phone is to phone and text message and simple <unk> the various mobile phone in the function is not a big difference.",
+    "hyp_id": "5c3e9610eff6ac44086730c0aeaa571c31872dbb09e02dc5a790900f604fee96"
+  },
+  {
+    "src": "自打有了计算机以来，努力让机器智能逐渐向人类大脑过渡成为了很多科研人员的一个梦想。",
+    "ref": "Ever since computers were available, conscientious effort to make machine intelligence gradually transition toward the human brain has become a dream of many scientists.",
+    "hyp": "Since the computer has been in the process of making the machine intelligence a transition to the human brain has become a dream of many researchers.",
+    "hyp_id": "13ea0a74a834bb79560d6d2c0800cd52fb97fe8252caacc14a82347b59be691f"
+  },
+  {
+    "src": "《毒枭》第三季预告片：随着巴勃罗·埃斯科瓦尔的离开，卡利集团开始走上 Netflix 热播剧中心舞台",
+    "ref": "<unk> season 3 <unk> With Pablo Escobar gone, the <unk> Cartel take centre stage in <unk> hit series",
+    "hyp": "The drug <unk> The <unk> <unk> With the departure of the new star of the third season, the group began to take on the stage of the hit center of the show",
+    "hyp_id": "d0a4429de9442b8d43eef4f59d02749d2d5991fde1c92b84cfb85bfe573c9f67"
+  },
+  {
+    "src": "尽管《毒枭》第二季揭露了杀害巴勃罗·埃斯科瓦尔的凶手，但这部 Netflix 热播剧还远远没有结束。",
+    "ref": "Despite season two of <unk> revealing Pablo <unk> killer, <unk> series is far from over.",
+    "hyp": "Although the drug <unk> second season revealed the killing of the killer of the man who killed the man <unk> but this is the hit of the play far from over.",
+    "hyp_id": "495a0245117c78d98b4e5aeb21a954c728d13641a5142de8e05759c9abc759c7"
+  },
+  {
+    "src": "流媒体服务已确认第三季和第四季，第三季已收到首个预告片，片中对这部剧中即将出现的反派角色进行了一番调侃。",
+    "ref": "Season three and four have already been confirmed by the streaming service, the former receiving its first trailer, teasing the show's upcoming villains.",
+    "hyp": "The streaming service confirmed the third and fourth quarter and the first movie in the third quarter was a hit with the upcoming role of the <unk>",
+    "hyp_id": "1db582f18e12b7ee6c5fcb76b1dde59a3065e77dcac19a595a8e33b90f0660b0"
+  },
+  {
+    "src": "第三季中，DEA 将注意力转向世界上最富有的贩毒组织：卡利集团。",
+    "ref": "With season three, the DEA has turned their attention towards the richest drug trafficking organisation in the world: the <unk> <unk>",
+    "hyp": "In the third quarter, the company turned its attention to the world's richest drug <unk> <unk>",
+    "hyp_id": "d49e5b13921587b7e8a66f0bfa5995422cc83cbbf819846b787c1402c175aa76"
+  },
+  {
+    "src": "卡利集团由四位强大的教父级大佬把持，像“财富 500 强”公司一样运作，只是涉及更多的政府贿赂和暴力行为。",
+    "ref": "Led by four powerful <unk> they operate \"like a Fortune 500 company\" just with more government bribes and violent actions.",
+    "hyp": "The <unk> is run by four powerful <unk> as the <unk> 500 <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>",
+    "hyp_id": "3e365287da58657babf8ee9599f7c52251383783315cafd592a2590a3f86c8f2"
+  },
+  {
+    "src": "吉尔伯托·罗德里格斯·<unk>拉（达米安·阿尔卡<unk>）是卡利集团的领导人，米格尔·罗德里格斯·<unk>拉（弗朗西斯科·丹尼斯饰）是卡利集团的智囊，<unk> <unk><unk>·<unk>（阿尔伯托·阿曼饰）负责运营墨西哥的网络，<unk>·圣克鲁斯·伦敦诺（佩佩·拉帕<unk>）负责纽约的运营。",
+    "ref": "Gilberto Rodriguez <unk> <unk> <unk> is the <unk> leader, Miguel Rodriguez <unk> <unk> <unk> being the brains, <unk> Herrera <unk> <unk> running the Mexican connection, and <unk> <unk> <unk> <unk> <unk> based in New York.",
+    "hyp": "The leader of the <unk> group, the group of <unk> is the <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>",
+    "hyp_id": "f3572ce5de82c0ef0421f9b022255449a518c8c5bb3fac195b55c197e32bed1c"
+  },
+  {
+    "src": "这部新发布的预告片中，佩德罗·帕斯卡以哈维尔·佩纳这一角色重新回归。哈维尔·佩纳这个角色支持美国和哥伦比亚执法部门，协助开展毒品战争。",
+    "ref": "The newly released trailer sees Pedro Pascal return as Javier <unk> the character enlisting American and Colombian law enforcement to help with the war on drugs.",
+    "hyp": "In the new released movie series of the new role of the man who was returned to the role of the man who supported the U. S. and the Columbia law enforcement department to help in the war on drugs.",
+    "hyp_id": "4fa3d70c8358266cdb6ab9d5c09318f9614dd1434bbb1859eabb853f5f9c4960"
+  },
+  {
+    "src": "其他新演员包括 马蒂亚斯·<unk>、迈克尔·斯塔尔-大卫、马特·惠兰、米格尔·<unk>·西尔韦斯特凯瑞·<unk>、和<unk>·卡斯特罗。",
+    "ref": "Other new actors include Matias <unk> Michael <unk> Matt <unk> Miguel Angel <unk> Kerry <unk> and Arturo Castro.",
+    "hyp": "Other new actors include Michael <unk> Michael <unk> <unk> <unk> <unk> <unk> and <unk> <unk>",
+    "hyp_id": "a869fecd61b2bf97f1d28f0132889c9f4c510566f301b1e44c76f85c01b6fabb"
+  },
+  {
+    "src": "《毒枭》第三季将于 9 月 1 日亮相。",
+    "ref": "Season three of <unk> will debut 1 September.",
+    "hyp": "The drug <unk> will be available on September 1.",
+    "hyp_id": "19183bc6219cb5a24d84bf798960f1ddf547b8e63731dda789bdace91481fb63"
+  },
+  {
+    "src": "据悉，此轮Coldplay巡演中没有香港站的原因之一，就在于没有合适地点，因为他们明确要求至少要容纳3万人以上的户外场地。",
+    "ref": "It is understood that a reason for not having a Hong Kong stop in <unk> tour this time round was because of a lack of an appropriate venue. The band specifically requested for an outdoor venue with a seating capacity of at least <unk>",
+    "hyp": "One reason for the lack of Hong Kong price during the tour was that there was no place to go because they were asking for at least 3,000 outdoor places to be in the area.",
+    "hyp_id": "45e8de5d417319832ed2c35685394696078215740a976e6c3cdc064aa61d9502"
+  },
+  {
+    "src": "扎克伯格希望借助Jarvis项目用自己的声音控制家里的所有东西，从音乐到灯光再到温度。",
+    "ref": "Zuckerberg hopes to use Jarvis to control everything at home, from music to lights to temperature, with his voice.",
+    "hyp": "The president hopes to use his voice to control everything from music to light to temperature with the help of the project <unk>",
+    "hyp_id": "2f80bb2fc1f8bc940e88053840262fe9bd01a56c2dc991f47952597bbded35ba"
+  },
+  {
+    "src": "12月19日，中兴通讯对外披露，今年7月，该公司成功收购珠海<unk>客车，组建中兴智能汽车有限公司进入新能源汽车领域，围绕新能源汽车研发、设计、生产制造，车联网应用、大数据、自动驾驶、云计算中心的系统研发与建设运营，打造全新产业板块。",
+    "ref": "On December 19, ZTE publicly disclosed that the company successfully acquired Zhuhai <unk> Automobile in July this year, and has set up ZTE Smart Auto Co., Ltd to enter the renewable energy auto sector. Centered on the research and development, designing, and production of renewable energy vehicles, as well as the system research and development, and building and operation of vehicle networking applications, big data, driverless vehicles, and cloud computer centers, the company aims to create a brand new industry sector.",
+    "hyp": "On December 19, the company successfully acquired Zhuhai <unk> bus in July and formed the new energy car development and manufacturing <unk>",
+    "hyp_id": "f8b45b6e07d1d8765af140a3b282b861fb3e7bfd51d59cd59c4bdc5f3c1fc67f"
+  },
+  {
+    "src": "联合国称阿富汗民主取决于女性的政治地位",
+    "ref": "Afghan democracy depends on political role for women, U.N. says",
+    "hyp": "The United Nations says that democracy depends on the political status of women.",
+    "hyp_id": "dfa815dbf6b6b358c245b8cc210001c7d2153702bf6ed00cc8699f3f567f5238"
+  },
+  {
+    "src": "联合国驻阿富汗援助团团长星期三称，只有包括女性在内的社会所有成员都参与的选举才是有代表性的。",
+    "ref": "Elections can only be representative if all members of society, including women, play a role, the head of the U.N. mission in Afghanistan said Wednesday.",
+    "hyp": "The United Nations aid team in Afghanistan said Wednesday that the election is representative only for all members of the society, including women, to be involved in the election.",
+    "hyp_id": "5830dc3d3b969675a8777688793db5e4705de42bc9537e0c00d73cd0b0226b3e"
+  },
+  {
+    "src": "联合国援助团团长尼古拉斯·海伊索姆称，上百名女性正在参与省级议会选举，三名女性正在参加副总统选举，超过 30% 的新注册选民为女性。",
+    "ref": "Nicholas <unk> acting head of the U.N. Assistance Mission said hundreds of women are running in provincial council elections, three women are running for vice president and more than 30 percent of the <unk> voters are women.",
+    "hyp": "United Nations aid minister Nicolas <unk> said hundreds of women were in provincial elections and three were in the process of running for vice president with over 30% of new registered women.",
+    "hyp_id": "e20829321a248a8f041d8278e55734b939e82ddc256e5c6580da86e89dbeb448"
+  },
+  {
+    "src": "他在周三的声明中称，“女性的地位不容小觑。”",
+    "ref": "\"The role of women cannot be <unk> he said in a statement Wednesday.",
+    "hyp": "\"The status of women is not to be <unk> he said in a statement on Thursday.",
+    "hyp_id": "8c50fa0d87b780eef44b86ae1ad2011db53cdbcab572a33beb801d3be5bfa41c"
+  },
+  {
+    "src": "只有当女性完全参与并包含在选举过程的全部阶段中，才真正是有代表性的、可信的选举。",
+    "ref": "Elections can only be truly representative and credible when women fully participate and are included in all parts of the electoral process.",
+    "hyp": "Only when women are fully involved and are included in the whole period of the election process are truly representative and trusted in the election.",
+    "hyp_id": "0c0ea57c7479161950579562e2d071141256dfaea7dc9997a07c85abc8d2bc21"
+  },
+  {
+    "src": "阿富汗省级议会和总统选举于 4 月 5 日举行。",
+    "ref": "Afghan provincial council and presidential elections take place April 5.",
+    "hyp": "Afghan provincial <unk> and presidential elections were held April 5.",
+    "hyp_id": "79948a06fe92e4881a20e1079012cb4cf30fec86f696aaceb63a6ecc8afbe62d"
+  },
+  {
+    "src": "塔利班对一选举程序发出恐吓，该选举与国际军事行动向顾问身份的过渡吻合。",
+    "ref": "The Taliban has issued threats against an election process that coincides with the transition of international combat operations to an advisory role.",
+    "hyp": "The Taliban have threatened an election process that is in agreement with the transition of international military operations to a consultant identity.",
+    "hyp_id": "51b3447f89e39264de11059956d6d7d6982e46ed38ff8ab273b584a4d30976d0"
+  },
+  {
+    "src": "今年的选举是第一次和平实现从一个民主选举政府到下一个民主选举政府的权力交接。",
+    "ref": "This year's elections mark the first time power is handed peacefully from one democratically elected government to the next.",
+    "hyp": "This year's election was the first peaceful transfer of power from a democratic government to the next democratic government.",
+    "hyp_id": "d597d29f3607682a89f526fa6b44dcadb88e5ee1c8864074be15cfd54eb0e3e8"
+  },
+  {
+    "src": "海伊索姆称女性的重要地位将促进阿富汗民主。",
+    "ref": "<unk> said a strong role for women will add to Afghanistan's democratic success.",
+    "hyp": "<unk> said that the importance of women will promote democracy in Afghanistan.",
+    "hyp_id": "6ae59ffd24230e2eda22cb1ada432f3f47b2acfdcc920b8a5b0e722900263c79"
+  },
+  {
+    "src": "独立选举委员会发布报告称，总计 360 万注册选民中有 120 万为女性。",
+    "ref": "The Afghan Independent Election Commission reports 1.2 million women are registered out of 3.6 million total registered voters.",
+    "hyp": "The independent election committee released a report that said that the total of the <unk> registered voters were 120 million women.",
+    "hyp_id": "2e502f63e446e86543d67389ddb42935ef6b8c183786e7f7976686ac69eb1460"
+  },
+  {
+    "src": "连续播出三年的《<unk>奇谈》自2014年在<unk>上线以来一直保持超高的播放量及口碑好评度。",
+    "ref": "<unk> <unk> which has been broadcast for three consecutive years on <unk> since 2014, has maintained very high viewership and earned critical acclaim.",
+    "hyp": "The three consecutive years of broadcast <unk> has been keeping the highest playing and reputation since it was launched in <unk> in 2014.",
+    "hyp_id": "c0565b3c8f86dad3b48f2a233dcb1c38d235e9ef8644f66184d2838377967bec"
+  },
+  {
+    "src": "去年5月，经典美剧《傲骨贤妻》以“A姐”艾丽西亚挨的一记耳光正式宣告<unk>全剧终。",
+    "ref": "Last May, the Season 7 finale of the classic American series “The Good <unk> ended with Alicia being slapped in the face.",
+    "hyp": "Last May, the classic TV series <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>",
+    "hyp_id": "9682b17bd72324d5061b17ebd5cbd811103f80df68f50342a29cfdd430cf51a2"
+  },
+  {
+    "src": "对于很多人而言，这是他们心目中最好的<unk>剧。无论<unk>还是豆瓣，该剧<unk>的平均分都在9分以上。",
+    "ref": "This was the best legal and political drama in the eyes of many. Both <unk> and Douban gave Season 7 of the series an average rating of 9 and above.",
+    "hyp": "For many of them, this is the best <unk> drama in their mind. The average score for the play <unk> is above 9 for both <unk> and <unk>",
+    "hyp_id": "6953a1525fd8529584d897796e4aa78cc92d8a35def78713efad4a64fb16fc10"
+  },
+  {
+    "src": "烂番茄上除第一季外，其他六季新鲜度都高达100%。",
+    "ref": "Other than Season 1, Rotten Tomatoes had a 100% certified fresh rating for the other six seasons.",
+    "hyp": "The bad tomato is not the first season, other <unk> of the fresh and fresh <unk> up to 100% .",
+    "hyp_id": "eabb6964161a8315f58b21883e01a325c0070e93f1e5fbc3e889d62c1e0f6e0b"
+  },
+  {
+    "src": "就在傲骨迷倍感失落之际，CBS网上频道新推出了一部《傲骨贤妻》系列衍生剧《傲骨之战》。",
+    "ref": "Just when fans of “The Good <unk> felt lost, CBS released “The Good <unk> a sequel to “The Good <unk> on CBS All Access, its streaming service.",
+    "hyp": "As the fans of the <unk> lost their heart, the new series of <unk> <unk> on the <unk> <unk> <unk> was launched by the <unk> <unk>",
+    "hyp_id": "7e2c9e87b5e5261bd15e5aee2e20a5b27d00f47db55826c2ba70941fed76050e"
+  },
+  {
+    "src": "在<unk>上，这一分数，不仅打败了<unk>播出的众多美剧，也打败了<unk>的<unk>《傲骨贤妻》，更首次打破了衍生剧“<unk>”的魔咒。",
+    "ref": "On <unk> its rating not only beat many American dramas broadcast at the same time, it also beat that of all the seasons of “The Good <unk> breaking the curse of a “bad sequel to a <unk>",
+    "hyp": "In <unk> this score not only beat the many TV shows broadcast by <unk> but also beat the <unk> <unk> <unk> <unk> for the first time to break the <unk> of the derived play.",
+    "hyp_id": "1a9bfe7a87dbe6d6d270a985e3c1d7f924120ed80705f6e7172e5dccb5e2894d"
+  },
+  {
+    "src": "<unk>联赛昨晚进行了女团第16轮争夺，丁宁因病缺阵，北京首钢<unk>客场不敌<unk>。",
+    "ref": "The 16th round of the women's team of the Table Tennis Super League took place last night. Ding Ning missed the match due to illness. As a guest member, the women's team of Beijing Shougang Group failed Shandong <unk>",
+    "hyp": "The first 16 round race in the league last night was made in Beijing because of the absence of the disease.",
+    "hyp_id": "9508679fd4f783ce33117ea57e0e5fe05cbadfb8e36542d95de908ae6c0b73b7"
+  },
+  {
+    "src": "13开发商争抢天河区<unk>化工厂地块地价或将破1万元/m2",
+    "ref": "13 developers compete for <unk> Chemical Plant site in Tianhe District; land price could exceed <unk>",
+    "hyp": "The developers are looking for land prices in <unk> <unk> Chemical Plant or will break <unk>",
+    "hyp_id": "9f9f7d4460acff3c2fa3384ead492d318e199b1df83c5ce167b05b889c1d4079"
+  },
+  {
+    "src": "羊城晚报讯记者<unk>报道：今天下午，将有不少于13家开发商争抢<unk>化工厂地块，今天出让的天河区黄埔大道<unk>化工厂地块，为二类居住用地（R2），用地面积<unk>平方米（可建设用地<unk>平方米），建筑面积为<unk>平方米。",
+    "ref": "Yangcheng Evening <unk> Zhao <unk> This afternoon, not less than 13 developers competed for the <unk> Chemical Plant site. The <unk> Chemical Plant site at Huangpu Road in Tianhe District is a Class 2 land parcel for residential use <unk> with site area of <unk> m2 <unk> available for construction: <unk> <unk> and gross floor area of <unk> m2.",
+    "hyp": "The second floor area of the second building area of <unk> square meters <unk> square meters <unk> square meters <unk> is the second floor of the second building area of the second class of the <unk>",
+    "hyp_id": "8e97851ee953135d4d2ba63a5f7ebca26e1409b17c1a33cf059119eed52e7a85"
+  },
+  {
+    "src": "地块设有中小套型要求，90平方米以下住房面积<unk>住宅开发建设总面积比例不低于60%。",
+    "ref": "There are requirements for small and medium-sized units for the site. The proportion of built-up gross floor area for the development of residential units 90 m2 and below should not be less than 60% at this site.",
+    "hyp": "The total area of development and construction of <unk> <unk> residential area under 90 square meters is not less than 60% in the area of small and medium-sized building <unk>",
+    "hyp_id": "74a30ab199f7a97434089d456ce0debfccc7f17bde146cf7876cf8ed90b2372e"
+  },
+  {
+    "src": "<unk>小户型的最大面积计算，该地块将至少可以提供303套中小户型住宅。",
+    "ref": "Based on the largest floor area of a small to medium-sized unit, at least 303 small and medium-sized units could be offered at this site.",
+    "hyp": "The maximum area of the family <unk> will provide at least a total of about 1, 000 homes in the area.",
+    "hyp_id": "dbdd292416067a4232b09043a00e22f80beec273c5e427a7c7e6b9feb40c93ea"
+  },
+  {
+    "src": "据悉，该地块位于黄埔立交正东面，马路对面便是天河建筑设计院。该地周边配套完善，为今年挂出的天河区首块住宅用地。",
+    "ref": "It is understood that this site is located directly east of Huangpu Interchange, and across the road from Guangzhou Tianhe Architecture Design Institute. <unk> around the site are comprehensive. It is the first listing of a residential site in the Tianhe District this year.",
+    "hyp": "It is reported that the block is located in the east of the road is the east of the road is the building design <unk> the area around the complete set of residential land in the city of <unk>",
+    "hyp_id": "da99eeef62070ba874ffa5acb55bd01458f182c7d8dc826427890fadc49d6a32"
+  },
+  {
+    "src": "另外，今天还将出让白云区同和<unk>蟾蜍石北路一幅二类居住用地（R2），用地面积<unk>平方米（可建设用地<unk>平方米），建筑面积<unk>平方米，挂牌起始价<unk>万元，折合<unk>6600元/平方米。",
+    "ref": "Elsewhere, a Class 2 land parcel for residential use <unk> at Chan Chu Shi North Road, Tonghe <unk> Baiyun District, was also offered for sale today, with site area of <unk> m2 <unk> available for construction: <unk> <unk> and gross floor area of <unk> m2. The listed starting price was <unk> million, equivalent to <unk> per m2 per plot ratio.",
+    "hyp": "In addition, today will be the same and <unk> <unk> North Road of a second class residential <unk> land area of <unk> square meters <unk> square <unk> square meters of building area <unk> square <unk>",
+    "hyp_id": "84dd0ebf46c00410f2767c8e1eb808d87c1e1bfdd35a87ea3d4a436d459fac6a"
+  },
+  {
+    "src": "该地块为白云区今年来推出的<unk>宅地，同样要求中小套型（90平方米以下）比例为30%。",
+    "ref": "This land parcel is the first residential site offered for sale in Baiyun District this year. Similarly, there are requirements for small and medium-sized units (90 m2 and below), with the proportion at 30%.",
+    "hyp": "The site is the <unk> <unk> which was launched in the year in the city of <unk> and the same requirement for the proportion of small and medium-sized <unk> is 30 percent.",
+    "hyp_id": "0d8d5685f3e5598a7d8c9180f1b67831ef482e74c3b5a7c4d422b7d5e622685c"
+  },
+  {
+    "src": "地铁三号线延长线从其西边穿过，地块正位于同和站和<unk>南方医院站之间的路段。",
+    "ref": "The site, with the extended Guangzhou Metro Line 3 passing through its east side, is located at the section of the road between Tonghe and Jingxi Nanfang Hospital stations.",
+    "hyp": "The line three of the subway line passes through its west side, the land is located in the same station and <unk> station and the south of the hospital station of the road.",
+    "hyp_id": "d99086677236adb9b81428da3c480c871fbcdb8e52ea0b50e8516dcc4958c6a2"
+  },
+  {
+    "src": "“一天十亿只包裹，不会超过八年，估计在六七年左右就能实现。”在昨日杭州<unk>小镇举行的“2017全球智慧物流峰会”上，阿里巴巴董事局主席马云如是说。",
+    "ref": "<unk> billion parcels per day can be achieved in less than eight years; probably in about six to seven years,” said Alibaba Chairman Jack Ma yesterday at the <unk> Global Smart Logistics <unk> held in <unk> township, Hangzhou.",
+    "hyp": "\"The day a billion packages will not be more than eight years, estimated at around seven years to be <unk> at the <unk> global wisdom and logistics summit in the town of Hangzhou yesterday, said Ma <unk>",
+    "hyp_id": "590aec4532c4c81725723c6fd21eadc6278a8f85df53a6b88df60eeeb48ab01c"
+  },
+  {
+    "src": "在这次大会上，菜鸟网络发布了全新的品牌标识和ACE绿色智慧物流汽车计划，并宣布与多家知名车企打造百万辆“智慧”新能源物流汽车，目前新车已在深圳和成都进行试点，节省成本超过两成。",
+    "ref": "At the Summit, <unk> Networks unveiled its new brand logo and the ACE green smart logistics vehicle plan. It also announced that it will build one million “smart” renewable energy logistics vehicles with numerous renowned automakers. Currently, the new vehicle has undergone trials in Shenzhen and Chengdu, with cost savings of more than 20%.",
+    "hyp": "At the meeting, the company announced a brand new brand and a plan to build a new <unk> <unk> with several well-known <unk> and now it has been in the pilot in Shenzhen and Chengdu for over two percent of the cost.",
+    "hyp_id": "1c8e5ea2cfc8fbc070a2592c3e0cb7d08f932caf5f84cc766e7a328290ae48e6"
+  },
+  {
+    "src": "2016年，中国快递业已实现连续6年增长率超过50%，日均8000万个包裹，还可以更改送货时间。",
+    "ref": "In 2016, China’s express delivery industry achieved more than 50% growth for six consecutive years, with an average of 80 million parcels per day, with changes in delivery time allowed as well.",
+    "hyp": "In 1995, China express has achieved 6 consecutive annual growth of more than 50% per day, average daily average of 8 million packages and can change delivery time.",
+    "hyp_id": "0c863d4358ba71ee9419be03dd35d901029536e664513cc908c31fc85de38498"
+  },
+  {
+    "src": "这让住在南宁市民主路<unk>宿舍的高阿姨一家人很高兴。",
+    "ref": "This made Aunt Gao and her family, residents of the Machinery Office dormitory at <unk> Road in Nanning, very happy.",
+    "hyp": "This makes living in the city of the democratic road in the city of the city of <unk> the high aunt and aunt family is very happy.",
+    "hyp_id": "06e229d8b946a1357a5edb482781f2a8671dac64f7b3b9b9224affdcc67bf836"
+  },
+  {
+    "src": "邻居们也都说<unk>开花，真是难得一见。小区居民们认为这是一件很吉祥的事，得知后都饶有兴致前来观看。",
+    "ref": "Neighbors also said that flowers blooming on the money tree is a rare sight. Residents of the housing estate felt that this was very auspicious, and came to take a look out of interest after learning about the matter.",
+    "hyp": "The neighbors also said that the <unk> flower is very rare and residents in the community think it is a very lucky thing, after that all interested in watching the <unk>",
+    "hyp_id": "572fd40fd574ce3e5e49f93d850b15451442742af4c16bf26610bd932ed52abc"
+  },
+  {
+    "src": "<unk>学名“马拉<unk>”，是一种热带植物，原产墨西哥，喜温暖湿润，必须在阳光、水分、养料等多个条件都适宜的情况下，才可能出现开花现象。",
+    "ref": "The scientific name for the money tree is <unk> <unk> a tropical plant native to Mexico. It performs best in warm and damp conditions, and its flowers will only bloom under appropriate conditions such as sunlight, water and <unk>",
+    "hyp": "<unk> <unk> is a tropical plant native to Mexico and is happy to be warm and wet and it may be in the right condition for the sun and water and food.",
+    "hyp_id": "8071f8eec0052364eab824cbe15eeb9cfc5282610bc9699dccca0d6e0699e42f"
+  },
+  {
+    "src": "即使在热带条件适宜的野外，<unk>开花也属罕见，曾有“开花率仅千分之一”的说法。",
+    "ref": "Even in the wild where tropical conditions are appropriate, flowers blooming on money trees are rare. It was once said that the <unk> of flowers blooming is one in a <unk>",
+    "hyp": "Even in the tropical field of appropriate condition <unk> is a rare flower and once <unk> only a thousand <unk>",
+    "hyp_id": "5c15b8cfc30ef240a86393b6701b8be0b72ec93bb8e31f738eaa6c68aeb47461"
+  },
+  {
+    "src": "昨天早上，记者来到南宁市民主路<unk>宿舍，在高阿姨的指引下，记者见到了那棵<unk>。",
+    "ref": "Yesterday morning, reporters visited the Nanning Machinery Office dormitory at <unk> Road. Led by Aunt Gao, the reporters saw the money tree.",
+    "hyp": "The reporter came to the democratic road in the city of the city of the city of the city of <unk> living room in the apartment in the <unk> under the guidance of the reporter saw the tree <unk>",
+    "hyp_id": "50977ff5b9be764e904fadcbbe38a954ec6507314ffa558ba00382e4625ec43e"
+  },
+  {
+    "src": "发财树种在小区的花圃里，大约5米高，最粗的树枝周长约30厘米，树叶翠绿茂盛。",
+    "ref": "Planted amid the flower bed of the housing estate, the money tree was about five meters tall, and the branch circumference, at its <unk> measured approximately 30 cm. Its leaves were emerald green and <unk>",
+    "hyp": "The rich tree species in the community in the garden , about 5 meters high, the most thick branch of the tree about 30 cm , the leaves green and green.",
+    "hyp_id": "326b0c6c09beea0265eea1318683792507c8f2a3f7be421da4a47441fff6ec0c"
+  },
+  {
+    "src": "花朵开在较高树枝顶端，盛开的花有10<unk>宽，淡黄色的细丝均匀散开，绿色花苞裂开后卷曲在两旁，花蕊细密如银丝，<unk>金星点点。",
+    "ref": "The flowers bloomed at tips of higher branches, and the flowers that were in full bloom were more than 10 cm wide. The delicate pale yellow filaments were evenly spread out, and the green buds, when burst, curled backwards on both sides. The fine and dense stamens resembled silver threads with gold stars at their tips.",
+    "hyp": "The flower is the higher the top of the tree and the flower is 10 times <unk> the yellow <unk> the green flower is even spread out, after the green flower is cut off on both sides like a red <unk> <unk> <unk> <unk> <unk>",
+    "hyp_id": "60c663af2ce015c15d45f932dcf4bd1e097ff31d2bb75a88d75a36385c28c5ce"
+  },
+  {
+    "src": "高阿姨告诉记者，这棵发财树种了8年了，当时种的时候大约高1米，现在长有5米多了。",
+    "ref": "Aunt Gao told the reporters that the money tree has been planted for eight years. When it was first planted, it was about one meter tall; it is now more than five meters tall.",
+    "hyp": "The rich tree was 8 years old and was about a meter high when it was planted and now it is more than 5 meters long.",
+    "hyp_id": "197836fa278a17c430d39a8cdfdbd42c82c229f8e53aac199a87d93717f80b96"
+  },
+  {
+    "src": "这是她儿子从花鸟市场购买回来的盆景，后来种在了花圃里，她也不怎么打理，就是有时候培培土而已。",
+    "ref": "It was originally a potted plant when her son first bought it from the flower and bird market, and was subsequently planted in the flower bed. She did not have to take particular care of it, but would occasionally earth it up.",
+    "hyp": "This is her son from the market to buy from the flowers and flowers of the flower plants, later planted in the flower garden, she is not much care, is sometimes only to <unk>",
+    "hyp_id": "28172bb6b8d3484a505cdb1b5621cf9765905c00ebe159836365c760fdc8d466"
+  },
+  {
+    "src": "在2018年即将到来之际，国家大剧院特别推出了9台11场新年系列音乐会，用曼妙音符陪伴广大观众共迎新年，以动人旋律奏响最诚挚的节日祝福。",
+    "ref": "With the advent of 2018, the National Centre for the Performing Arts has specially organized nine sets of 11 New Year concerts. <unk> musical notes accompanied the audience to usher in the New Year, and moving melodies were played offering the most sincere blessings for the festival.",
+    "hyp": "In the year of the coming of the National Museum of the National People's Congress in the <unk> New Year series of the concert to the general public with a <unk> notes to the New Year and the most sincere holiday wishes to the music.",
+    "hyp_id": "add63bca35bb0b06533d693e402feed2c3e436f497fb0ceada7bfbdda45adaa6"
+  },
+  {
+    "src": "从体育人群的增多、体育事业的发展，到体育产业的兴起，体育运动正在以更强大的号召力，影响着中国社会行进的步伐。",
+    "ref": "From the increase of sports crowd, the development of sports undertakings to the rise of sports industry, sports is influencing the progressing pace of Chinese society with more powerful appeal.",
+    "hyp": "From the development of the sports people and the sports <unk> to the development of the sports industry, the sports is affecting the pace of the Chinese society with a stronger power.",
+    "hyp_id": "7eb72374b58b319ac324f6c5024c076967c7564e403373bb971303bdd0c85fcb"
+  },
+  {
+    "src": "11月4日，清远华侨工业园管委会副主任<unk>代表清华园与<unk><unk>新能源科技有限公司总裁左海波签署《<unk>生产基地项目投资建设合同书》。",
+    "ref": "On November 4, Deputy Director of the management committee of Qingyuan Overseas Chinese Industrial Park <unk> Pan Hong, on behalf of <unk> and Zuo <unk> President of Yingde <unk> New Energy and Technology Co., Ltd entered into the <unk> Production Base Investment and Construction <unk>",
+    "hyp": "On November 4, <unk> <unk> the deputy director of the <unk> of <unk> China Industrial Park and the president of <unk> New Energy Technology Co. , Ltd. signed <unk> <unk>",
+    "hyp_id": "077759fd41365d558964edde7bb4a05dab30a8016e4b9e57d4a5a92913ff54d2"
+  },
+  {
+    "src": "该企业正式进驻清华园高科技产业基地，项目选址于清华园高科技产业基地内，主要从事锂离子电池正极材料的生产，预计明年5月进入试产阶段，全面达产后产值超30亿元，并能带动企业上下产业链集聚清华园高科技产业基地，加快产业基地的发展。",
+    "ref": "The enterprise officially established its plant in Qingyuan Overseas Chinese Hi-Tech Industrial Base, mainly to produce lithium cathode material. Trial production is expected to commence next May. When operating at designed capacity, output value could exceed <unk> billion, and it could help bring up- and downstream enterprises along the industry chain into Qingyuan Overseas Chinese Hi-Tech Industrial Base, thus accelerating the growth of the Industrial Base.",
+    "hyp": "The project is located in the high-tech industry base in <unk> It is expected to enter the first stage of the first phase of the first year of next May and then <unk>",
+    "hyp_id": "a5217ab3242e63b150a6cf99d6a72b66723e325c565376b2ffdc822e1f03abd7"
+  },
+  {
+    "src": "这两位政府官员称，苹果上个月致信印度政府，阐述了在印度生产iPhone等产品的计划，并希望印度政府能在财政方面出台优惠政策。",
+    "ref": "These two government officials claimed that Apple sent a letter to the Indian government last month, which set forth its plans to produce iPhone and other products in India, and hoped that the Indian government would introduce preferential policies on the fiscal front.",
+    "hyp": "Apple wrote to the Indian government last month about plans to make an iPhone in India and hopes the government will have a financial policy on the <unk> the officials said.",
+    "hyp_id": "86e68df1ee728bd806088d00e550df39aad59162302c187e4016e3264b59a788"
+  },
+  {
+    "src": "据市场星报报道，从2005年到2011年，我省GDP一举由中部并列“垫底”升至次席。",
+    "ref": "<unk> <unk> reported that between 2005 and 2011, the GDP of Anhui Province rose from joint <unk> to second at one stroke.",
+    "hyp": "From 2005 to 2011, the total GDP of central China rose to second place from the bottom of the central part of the country, according to the market star.",
+    "hyp_id": "4e9dc0a46c0ab116e9d9381d3dbdd66830eb68a8716231c7c96e75d90b67d980"
+  },
+  {
+    "src": "但我省经济增长仍存在投资效率偏低、工业经济缺乏核心竞争力等困境。为此，省经济信息中心最新一期《经济<unk>》建议提高经济增长的质量和效益。",
+    "ref": "However, the <unk> economic growth continued to experience difficulties such as low investment efficiency, and a lack of core competitiveness in its industrial economy. To this end, the latest issue of the <unk> Blue <unk> of the <unk> Economic Information Center advised raising the quality and benefit of economic growth.",
+    "hyp": "But the economic growth of our province still has the low investment efficiency and the lack of core competition in industrial economy.",
+    "hyp_id": "c1d04d61fc9e5a53c67fe083ce1290f15b72e57f66e08242b2eaa95221e49d23"
+  },
+  {
+    "src": "以2005年和2011年我省经济的一些代表性指标为依据，将其与全国及中部地区进行比较。",
+    "ref": "We have made a comparison of some of the representative indices of the <unk> economy between 2005 and 2011 with that of the nation and Central China.",
+    "hyp": "Based on some representative index of economy in our province in 2005 and 2011, the comparison is made between the two <unk>",
+    "hyp_id": "9c70e562265d1a8142ff09268cfb7d336b7004f485605727b66cbd5261af9f39"
+  },
+  {
+    "src": "在工业经济效益上，2011年，在我省占有相当比例的工业能源、原材料等高耗能行业，受市场波动影响较大和产能过剩“双重压力”，同时，家电、汽车等主导产业创新力不足，导致利润微薄。",
+    "ref": "In 2011, in terms of industrial economic benefit, high energy consumption industries such as industrial energy and raw materials, which comprised a relatively large proportion of the Province, had to endure <unk> <unk> - they were significantly affected by market volatility as well as overcapacity. At the same time, home appliances, automotive and other leading industries lacked innovation, resulting in slim profits.",
+    "hyp": "In the industrial economic benefit in 2011, the industry in our province has a certain proportion of energy and raw materials industry and the market of the big market and surplus <unk>",
+    "hyp_id": "e3e4e2f23d13c4f468b2221293c1ef6332ded257b5dabb82d76e598b07ce9cde"
+  },
+  {
+    "src": "而大量的投资没有带来相应经济效益，是导致我省经济增长质量和效益不高的重要原因。",
+    "ref": "Meanwhile, enormous investment did not bring about the corresponding economic benefit, which was a key factor leading to poor quality and benefit in economic growth.",
+    "hyp": "However, the large amount of investment does not bring corresponding economic benefits and is the main reason of low economic growth and economic benefit in our province.",
+    "hyp_id": "bcaa161c49d393f60eb9d1c4c2bc91102cda3b00ca3d9418b42523f716c35914"
+  },
+  {
+    "src": "对此，专家建议，要采取有效措施鼓励企业创新，高校及科研院所的科技成果也要及时向企业“转移”。",
+    "ref": "As regards this, experts advised that effective measures should be adopted to incentivize enterprises to innovate. The technical outcomes of Institutions of higher learning and technological research institutes should also be promptly <unk> to enterprises.",
+    "hyp": "The experts suggest that the effective measures should be taken to encourage the innovation of the enterprises, and the scientific and technological achievements of universities and research institutions should be transferred in time.",
+    "hyp_id": "389a8d0fcd6f18dc60be45311ba48a1e29dc9ee293d5a6952d3617217f957a77"
+  },
+  {
+    "src": "对于工业经济效益不高，专家说，也要积极推动产业兼并重组、优化产业布局、延伸产业链。",
+    "ref": "As for low industrial economic benefit, experts said that industry merger and reorganization should be actively advanced, industry structure optimized, and the industry chain extended.",
+    "hyp": "The industrial economic benefits are not high, experts said, but also to actively promote the industry to be more and more close to the <unk> the optimization of industrial distribution and extend the industrial chain.",
+    "hyp_id": "033a43109cb21a23774f0d79d2a4818e2b98b7e74839d5520dceddae1b01f5ac"
+  },
+  {
+    "src": "傅家俊赛后说，希金斯开局非常完美，自己以为很快就会大比分败北，但随后他还是坚持自我，终于反败为胜。",
+    "ref": "<unk> had a very perfect start. I thought I might lose the competition very soon. But I didn’t give up, and finally turn the <unk> said Marco Fu after the match.",
+    "hyp": "After the game, said that the beginning of the perfect of the first great thought of his own will soon lose a big deal of <unk> but he still insist on the self and finally win the game.",
+    "hyp_id": "a5db2ff3707e2bc61d60d764006cc81aba4b1e86fe3a6d7c97c3e7f43341699a"
+  },
+  {
+    "src": "从集训时间看，这个时间段正好是各队冬训的关键阶段，队中主力被征战，必然将会对备战训练造成相当大的影响。",
+    "ref": "Th period of intensive training just meets the key stage of each team’s winter training. With the main force of each team absent, the preparation training will be inevitably affected .",
+    "hyp": "The training time is the key period of the team in winter training and the main team is being played and will have a great impact on the preparation of the training.",
+    "hyp_id": "6474cab347c03d40fec6a8f57cf189d124fe3af682e2a3e6c0aee1369cbd86a1"
+  },
+  {
+    "src": "一方面汽车技术经过一百多年的发展，许多技术已经比较成熟；一方面未来汽车的用户体验更多地取决于人机互动，中兴在IT、网络、车联网系统等领域有优势。",
+    "ref": "Automobile technology has developed for more than a century, and a lot of the technology is fairly mature. However, future auto user experience is more dependent on human-machine interaction. ZTE has advantages in the areas of IT, network, and auto networking systems.",
+    "hyp": "On one hand, the user experience of future automobile depends more on the interaction of computer and has the advantage in the field of IT and network, network and so on.",
+    "hyp_id": "cd074c1d2411039ce5198b55decba98dff00400e93f134b5564b68bc58c451bc"
+  },
+  {
+    "src": "英国总工会 (<unk>) 关注针对<unk>他公司 (<unk>) 格拉斯哥工厂的投资",
+    "ref": "<unk> concern over investment at <unk> Glasgow factory",
+    "hyp": "The British <unk> Association <unk> is concerned with investment in the <unk> plant",
+    "hyp_id": "c420abcbb091e4e8378a076ecf3c29db13857cd002dc7a4b9752a391cdd102ff"
+  },
+  {
+    "src": "工会希望饼干制造商<unk>他公司管理层保证长期致力于在拉斯哥工厂进行生产。",
+    "ref": "A union is seeking reassurance from managers at biscuit maker <unk> over its long-term commitment to production at its factory in Glasgow.",
+    "hyp": "The union hopes that the <unk> <unk> company will be committed to producing in the <unk> factory for a long time.",
+    "hyp_id": "348c393774be75d9a1b84c6253ea167bfe4dd9d36c240ebf11fa164c4e413580"
+  },
+  {
+    "src": "英国总工会苏格兰分会称，该公司对托尔克罗斯 (<unk>) 工厂投资的未来一直保持沉默。",
+    "ref": "<unk> Scotland said the company had been silent over the future of investment at the <unk> site.",
+    "hyp": "The company has been silent about the future of investment in the <unk> factory in Scotland <unk>",
+    "hyp_id": "1b20374d3187549521da3b207b6eb161f0d982711933e2c2ac323ccf6eeef28e"
+  },
+  {
+    "src": "该工厂有 500 多名员工，生产燕麦饼干 (<unk>) 、浓茶饼干 (Rich tea) 等产品。",
+    "ref": "More than 500 people work at the plant, which produces <unk> and Rich Tea biscuits, among other products.",
+    "hyp": "The factory has more than 500 employees and produces products such as the <unk> and the <unk>",
+    "hyp_id": "acde393014aae1bf8db06f731be77e15d14f6d4190fcd12a42d444c5fb68bd69"
+  },
+  {
+    "src": "<unk>他公司的所有人普拉迪 (<unk>) 斯表示，过去几年来，公司已经向该工厂投资了 500 <unk>。",
+    "ref": "<unk> owner <unk> said it had invested more than <unk> at the site in the last few years.",
+    "hyp": "In the past few years, the company has invested 500 <unk> in the factory of <unk> says <unk> <unk> of <unk>",
+    "hyp_id": "3769eb1ca958ed88fe331e023e4b4fb0faf4cc33d043fd1e8b3d769852d3e748"
+  },
+  {
+    "src": "他补充道，如工厂运营有变化，员工和工会代表“会率先知道”。",
+    "ref": "It added employees and union representatives \"will be the first to know\" if there were any changes to its operations.",
+    "hyp": "He added that employees and union representatives would be the first to know about the changes in plant operations.",
+    "hyp_id": "c42c731af99592ca5bd51ec3eee73562fa6ce1761c1b1a5e2d5a1570844d5245"
+  },
+  {
+    "src": "在致公司厂长的信中，英国总工会苏格兰分会呼吁<unk>他公司“解决资金未结转到生产线现代化上的问题。”",
+    "ref": "In a letter to the company's site manager, <unk> Scotland called on <unk> to <unk> concerns that funding is not being brought forward for the modernisation of production <unk>",
+    "hyp": "In a letter to the head of the company, the British <unk> Association of the Scottish Association called <unk> his company to <unk> funds to the problem of modernization of the production line.",
+    "hyp_id": "d923c1a270685b0027d585e56bbd5e0e81e78526e0c78216c29d4e1460b20409"
+  },
+  {
+    "src": "英国总工会资深主办人德鲁?达菲 (Drew Duffy) 说：“我们无法从工厂总经理那里清楚了解到托尔克罗斯 (<unk>) 未来的业务需求和投资计划，这使我们的成员深感担忧。",
+    "ref": "<unk> senior organiser Drew Duffy, said: \"The fact that we cannot get clarity from the general site manager over the business needs and investment plan for the future of <unk> is deeply concerning our members.",
+    "hyp": "\"We are not able to get a clear idea from the factory manager of <unk> future business needs and investment <unk> says the senior British <unk> partner in the <unk>",
+    "hyp_id": "6a691c21f30e56f48b984464ddb905fa44ecf9f877048019b9ec66ce4a526515"
+  },
+  {
+    "src": "一代又一代的家族在这里工作，而且本地社区和大格拉斯哥地区劳动力高度集中，是高失业和社会剥夺严重的地区体面就业的重要支柱。",
+    "ref": "Generations of families have worked here and the workforce is highly concentrated in the local community and the greater Glasgow area, a crucial pillar of decent employment in an area of high unemployment and social deprivation.",
+    "hyp": "A generation of families work here, and the local community and the great <unk> labor force are highly concentrated in high unemployment and social relief of serious regional decent employment of important support.",
+    "hyp_id": "b015d8d1cf97435c4fbcbaac565da0e2241e96a1797339993086b3cd10eda506"
+  },
+  {
+    "src": "因此，从就业、薪酬和经济繁荣的角度来看，在英国脱欧，生活成本上涨和制造业长期衰退的背景下，格拉斯哥东部地区迫切需要<unk>他不断扩大生产网络。”",
+    "ref": "So, from the perspective of jobs, pay and prosperity, and against the backdrop of <unk> rising cost of living and chronic manufacturing decline, the east end of Glasgow desperately needs a thriving manufacturing presence at <unk>",
+    "hyp": "So in the context of job and pay and economic prosperity in Britain, living costs and manufacturing a long recession in eastern London are in need of a growing production network.",
+    "hyp_id": "71fee6e58ea7d6aa5df9f23eb6ddebb3f3c72b38f8a5303b948b582a5cfdeeea"
+  },
+  {
+    "src": "普拉迪斯公司的发言人表示：“托尔克罗斯 (<unk>) 的厂长昨日刚收到英国总工会苏格兰分会的来信，该公司将会立即进行回复，因为我们重视与雇员和工会代表保持持续接触。",
+    "ref": "A spokeswoman for <unk> said: \"The site manager at <unk> received a letter from <unk> Scotland only yesterday and the company will be responding directly as we value ongoing engagement with employees and union representatives.",
+    "hyp": "<unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>",
+    "hyp_id": "62c9657ece2ab437732d893f13b7d6152b691773fda49ef4a58a62ac3e473dac"
+  },
+  {
+    "src": "两个月前，我们在托尔克罗斯 (<unk>) 与员工和英国总工会代表举行了例会，公开讨论了一些问题。",
+    "ref": "We had a regular meeting with employees and <unk> representatives at <unk> two months ago at which a number of issues were discussed openly.",
+    "hyp": "We had a meeting with staff and representatives of the British Union of Trade in <unk> two months ago, and had a public discussion on some of the issues.",
+    "hyp_id": "7c439b4de0ec487fa6089fe4085a14b93e1ec5cb12cd5d3ecf860e774f806dc3"
+  },
+  {
+    "src": "我们与员工进行了讨论，然后，像所有在竞争激烈和经济不明朗的环境中运营的其他公司一样，我们对我们应用于企业和工厂的持续运营模式进行了审查，以便保持竞争力。",
+    "ref": "We discussed with employees then that like all companies operating in an extremely competitive and uncertain economic climate, we review our operations on an ongoing basis - and that applies across our all our businesses and sites - in order to remain competitive.",
+    "hyp": "We discussed with our employees, and then we reviewed our continued operating patterns for the enterprise and factory as well as for all companies operating in a competitive and economic environment.",
+    "hyp_id": "bec11fc136e0172b89f214dbdef6e5fcb92150eb53b85995e625a22776c4979f"
+  },
+  {
+    "src": "她补充道：“近年来，我们在托尔克罗斯 (<unk>) 工厂的投资超过 500 万英镑，特别是在生产线和运营改进方面。",
+    "ref": "She added: \"In recent years, we have invested over <unk> in our <unk> site, notably on production lines and operational improvements.",
+    "hyp": "In recent years, we have invested more than 500 million pounds in <unk> plants, especially in production lines and operational <unk> she added.",
+    "hyp_id": "cd5ff2de14b8106d80d88664ef4a955d9e87dc9e5ba13412ac5b5095aae1ea1d"
+  },
+  {
+    "src": "我们充分认识到托尔克罗斯 (<unk>) 作为生产基地的历史地位，如我们在该厂的运营业务有任何变化，员工和工会代表将会第一个知道。”",
+    "ref": "We fully recognise the heritage of <unk> as a manufacturing site and should there be any changes to our operations at the site, employees and their union representatives will be the first to know.\"",
+    "hyp": "We fully understand that <unk> as a production base in the history of our operations in the plant business has any changes, staff and union representatives will first know.",
+    "hyp_id": "8816085dfe2f8acf1679ebfcd723a4d3872ad2c83c75e331beafc17ebbb6042a"
+  },
+  {
+    "src": "中新社<unk>定日5月11日电(记者<unk>)<unk>体育局副局长尼玛<unk>10日在珠穆朗玛峰北坡大本营表示，今后珠峰北坡的生活垃圾清理将从过去的公益行动走向由中国政府主导、国际各界参与的常态化行为。",
+    "ref": "China News Service Tibet, May 11 wire (Chen <unk> <unk> <unk> Deputy Director of the Tibet Autonomous Region Sports Bureau said at the Everest North Base Camp on the 10th that the cleaning up of domestic waste on the northern slope of Mount Everest will move from a public interest action in the past toward a normalized action led by the Chinese government and in which the international community will participate.",
+    "hyp": "China news agency <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>",
+    "hyp_id": "9cbe90fc9909cc6dee75d61806fb0970a15a7aee336118aa0666bd847b56ea97"
+  },
+  {
+    "src": "5月10日，环保志愿者们将分类垃圾装入卡车。",
+    "ref": "On May 10, environmental protection volunteers loaded rubbish that have been sorted onto trucks.",
+    "hyp": "On May 10, environmental volunteers will be able to sort out the waste into a truck .",
+    "hyp_id": "f35934c083a8d065fb3ce27630d45dfae7034903c0a6e045bca779afd141443f"
+  },
+  {
+    "src": "中新社记者<unk><unk>十几年来，随着珠峰登山探险者和旅游者急剧增加，山峰所在地的环保问题日益凸显。",
+    "ref": "China News <unk> <unk> In the last 10 years or so, environmental protection issues at Mount Everest have become increasingly prominent as the number of Mount Everest explorers and tourists increased significantly.",
+    "hyp": "China news agency reporter <unk> <unk> <unk> in more than 10 years, with the rapid increase of the mountain of the mountain of the mountain of the mountain and the tourist of the mountain of environmental issues increasingly obvious.",
+    "hyp_id": "11a5794257226c0b312e045ffc163a71662d562dcc7b5016dc09e9ba02e467a8"
+  },
+  {
+    "src": "1997年春，<unk><unk>在珠峰北坡发起第一次清扫活动，清理了一批上世纪六七十年代遗留的氧气瓶等生活垃圾。该视频还在当年的东京世界气候大会上专门播放，引起世界关注。",
+    "ref": "In the Spring of 1997, the Tibet Autonomous Region Mountaineering Association initiated the first clean-up on the Northern slope of Mount Everest, cleaning up oxygen tanks and other domestic waste left over from the 1960s and 1970s. This video was also specially broadcast at the Conference of the Parties to the United Nations Framework Convention on Climate Change in Kyoto that year, drawing world attention.",
+    "hyp": "In the spring of 1997, <unk> launched its first cleaning campaign on the north bank of Mount Mount Mount to clean up a batch of waste waste from the last century and the <unk>",
+    "hyp_id": "a4e2db05553986d5f63ab05aa8996b00caea0c43808a1689038986b5df1eaf58"
+  },
+  {
+    "src": "据尼玛<unk>介绍，1997年之后，公益团队陆续对珠峰北坡进行过清扫，但参与者大多为非专业人士。",
+    "ref": "According to <unk> <unk> after 1997, public interest groups arrived successively to help clean up the Northern slope of Mount Everest, but most of the participants were <unk>",
+    "hyp": "According to <unk> after 1997, the public interest team to the north of the mountain of Mount Mount of the North has been cleaned but the participants are mostly <unk> people.",
+    "hyp_id": "472fcbd44caaf9c43f1cfe655a6f23bb61691d4d55c90af5b443b8c2d5b0bf7a"
+  },
+  {
+    "src": "巴黎圣日耳曼三年前就警告过巴塞罗那要<unk>内马尔？",
+    "ref": "Did PSG warn Barcelona about move for Neymar three years ago?",
+    "hyp": "Paris <unk> warned Barcelona to go to <unk> three years ago.",
+    "hyp_id": "7dd1b74a76dec1f9d433f8febc299bc1ee660621ccfe7485e2224db51364a69e"
+  },
+  {
+    "src": "西甲可能会后悔对马尔科·维拉蒂抛出橄榄枝",
+    "ref": "La Liga side may rue their interest in Marco <unk>",
+    "hyp": "The Spanish may regret throwing an olive branch at the <unk> <unk>",
+    "hyp_id": "2eabd0edc44c5106c50ca2b023e21ee32420450ba3d2aa19780551fdc53648c6"
+  },
+  {
+    "src": "在提出 1.89 亿英镑报价试图让其行使豁免条款之后，巴黎圣日耳曼不会放弃签入内马尔，但他们在三年前是否警告过巴塞罗那要向这位世界记录突袭者发起进攻？",
+    "ref": "Paris Saint-Germain will not let up in their pursuit of Neymar after lodging a <unk> offer to trigger his release clause, but did they warn Barcelona of the world-record raid three years ago?",
+    "hyp": "After offering a <unk> billion pounds offer to get it to exercise the terms of the World Cup they were not going to give up the <unk> but did they warn Barcelona to launch an attack on the world record <unk>",
+    "hyp_id": "432dc97186007885eff8788fc70fb3b0ccd6953b6f811322f8691ff53cf5ad02"
+  },
+  {
+    "src": "这个耸人听闻的方法已经打开了夏季转会窗口，法甲俱乐部准备以超过上一次转会记录两倍的价格打破世界转会纪录。保罗·博格巴上赛季返回曼联，金额高达 8900 万英镑。",
+    "ref": "The sensational approach has lit up the summer transfer window, with the Ligue 1 club ready to break the world transfer record by more than double the previous mark, which saw Paul Pogba return to Manchester United last season for <unk>",
+    "hyp": "The method has opened a summer transfer window and the French are set to break the world record by more than double the previous transfer record. Paul <unk> returned to Manchester United last season with <unk> million.",
+    "hyp_id": "477ae265c300eb514acae8d7dae66194b0ae8e235d1b6c94e36526606950aa8d"
+  },
+  {
+    "src": "一旦转会完成，内马尔将跃升成为世界上身价最高的球员，同时也是世界上薪水最高的职业运动员——巴黎圣日耳曼提供每周超过 50 万英镑的税后薪资。",
+    "ref": "Once completed, the move will see Neymar become the world's most expensive player and also the highest-paid professional sportsman in the world, with PSG offering wages of over <unk> after tax.",
+    "hyp": "Once the deal is done, the transfer will jump to the world's highest paid player and the world's highest paid professional player - Paris <unk> offers a weekly salary of over 50 million pounds a week.",
+    "hyp_id": "c8e0e5001d336f96613eab1a5b1f60c9585ab576b1254161abb9cc5cb5709517"
+  },
+  {
+    "src": "巴塞罗那对于内马尔的进攻方式以及闯出出路感到愤怒，了解加泰罗尼亚队董事会的消息人士坚持说，2013 年他从桑托斯抵达后，俱乐部一直竭尽全力关照他。",
+    "ref": "Barcelona are known to be furious with the manner of the approach and the way that Neymar has forced his way out, despite a source close to the <unk> board insisting that the club have always done their best to look after him since his arrival from Santos in 2013.",
+    "hyp": "Barcelona were angry at how and how the team was going to go and the source of the board of directors who knew the team was on the way to the club insisted he had been looking after him since the arrival of the club in 2013.",
+    "hyp_id": "ff9121777983603622003d27b5e3870a0ba54cfcab7ee96cefdb9642a7ed4f44"
+  },
+  {
+    "src": "但是巴黎圣日耳曼主席三年前曾对足球世界发出过这样的预测吗？",
+    "ref": "But was the football world warned of this prospect three years ago by the PSG president?",
+    "hyp": "But did the president of Paris <unk> have made such a forecast to the world of football three years before ?",
+    "hyp_id": "74323620dd36d337f252d15b6207d4c4f95a92785bdc64b4b66b6dba90fa1f16"
+  },
+  {
+    "src": "当曼城在 2014 年表示有兴趣签约布莱斯·<unk>，纳赛尔·<unk><unk>对任何一家想签下巴黎圣日耳曼最佳球员的俱乐部发出过严厉警告。",
+    "ref": "When Manchester City expressed an interest in signing Blaise <unk> in 2014, Nasser <unk> had a stern warning for any club looking to sign one of <unk> best players.",
+    "hyp": "When City made a move to sign the player in Pyongyang in 2014.",
+    "hyp_id": "d54dfbb4b6490a34878f42332885da5d5b8adc39340105b406e768c203ae38cb"
+  },
+  {
+    "src": "“我并不担心，因为他们知道如果他们接触我们的任何一位球员，我们必将与他们针锋相对，我们也会联系他们的球员，” <unk><unk>。",
+    "ref": "\"I am not worried because they know that if they touch one of our players, then we will be in opposition to them, we'll contact their players,\" <unk> said.",
+    "hyp": "\"I don't worry because they know if they touch any of our players, we will be in contact with them, and we will contact their players, \" <unk> said.",
+    "hyp_id": "34e13bae5b457e58789538390d586d066b68ab29c113e4e4bd6c7cb26bfc9027"
+  },
+  {
+    "src": "“我们尊重所有俱乐部。",
+    "ref": "\"We respect all clubs.",
+    "hyp": "We respect all our teams.",
+    "hyp_id": "2dda8a36134c51d2ab1edb50d170ffce82657787d995664b25ab5ed8f070dbd8"
+  },
+  {
+    "src": "但如果他们试图签约我们的球员，那他们也要自食恶果。”",
+    "ref": "But if they try to sign one of our players, they'll face consequences.\"",
+    "hyp": "But if they try to sign our <unk> then they will also have to <unk>",
+    "hyp_id": "bf9e236c526b049348680b0f004d2ed90af7c81bed9fbeaaf29eb7473061a59a"
+  },
+  {
+    "src": "今年夏天早些时候，这家西班牙俱乐部似乎越线了，巴塞罗那向巴黎圣日耳曼中场球员马尔科·维拉蒂抛出了橄榄枝。",
+    "ref": "Barcelona appear to have crossed this line, with the Spanish club expressing an interesting in PSG midfielder Marco <unk> earlier this summer.",
+    "hyp": "Earlier this summer, the Spanish club appeared to be in the <unk> with Barcelona throwing an olive branch at Paris <unk> midfielder <unk>",
+    "hyp_id": "edf8373442db0f6f62dda2524e6d013cd4e6f8c4a96773fbeb72a6418bc10124"
+  },
+  {
+    "src": "巴黎圣日耳曼明确表示，他们无论如何都不会允许这位意大利国脚离开，而巴塞罗那很可能会因为失去阵中天才内马尔而倍受影响。",
+    "ref": "PSG made it clear that they would not allow the Italy international to leave under any circumstances, and Barcelona could well be feeling the repercussions of that interest by losing one of their prize assets in <unk>",
+    "hyp": "Paris has made it clear that they will not allow the Italian international to go any way, and Barcelona will likely be affected by the loss of a talented <unk>",
+    "hyp_id": "4ad33ec9378537b2367713a1dd9fc57fc8792b742d56dd1607c8c9313ffd1968"
+  },
+  {
+    "src": "本报讯记者<unk>报道：由国家电网公司与国际电工委员会联合主办的新能源发展与技术国际研讨会日前在德国法兰克福举行。",
+    "ref": "By staff reporter Wang <unk> The International Conference on Renewable Energy Development and Technology jointly organized by State Grid Corporation of China <unk> and the International Electrotechnical Commission was held in Frankfurt, Germany recently.",
+    "hyp": "<unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>",
+    "hyp_id": "822cf65422349685460121f584868d15bdfdeb34484a1923f6054827d982d319"
+  },
+  {
+    "src": "当前，加快新能源发展、推动能源清洁低碳转型，已成为全球趋势。",
+    "ref": "At present, accelerating the development of renewable energy, and advancing transformation toward clean and low-carbon energy have become a global trend.",
+    "hyp": "At present, the global trend is to accelerate the development of new energy sources and promote the energy clean and low carbon transformation.",
+    "hyp_id": "36899fae5553d4d5568ee2cc43309c9df78c8e1b1fc68c5576dc532e9706b1d3"
+  },
+  {
+    "src": "而新能源的大规模开发利用，还有系统安全性问题、远距离输送问题、技术经济性问题等许多难题和挑战需要面对和解决。",
+    "ref": "However, large-scale development and use of renewable energy continued to be assailed by system security, long-distance delivery, technology economic and other issues and challenges that need to be confronted and resolved.",
+    "hyp": "However, the development of new energy sources in large scale has many problems and challenges to be solved such as system security, long distance transportation and technical economy.",
+    "hyp_id": "9243128a71d61430b40aac787fab9728e82338e858b0e75389c1ff50ed1b6bf3"
+  },
+  {
+    "src": "国家电网公司董事长<unk>透露，国家电网公司正在规划扩大同步电网规模，加强现有区域电网互联，到2020年将跨区输电能力提高到3亿千瓦左右。",
+    "ref": "SGCC Chairman Shu <unk> revealed that the company was in the process of planning to expand the size of the synchronous power grid so as to strengthen the existing regional power grid interconnection. By 2020, inter-regional power transmission capacity will increase to about 300 million <unk>",
+    "hyp": "State Power Company is planning to expand the size of its power grid and strengthen its existing regional power grid to increase its capacity to around 300 million by 2020.",
+    "hyp_id": "a49d1cfc599acd321e0b0d1626acfbca9e3b89a1dacecaf93fe56a936a729c05"
+  },
+  {
+    "src": "本报讯记者8月上旬获悉，今年上半年，据了解，全国“三北”风电集中地区，<unk>比较普遍。",
+    "ref": "Our staff reporter learned at the beginning of August that in the first half of the year, it was understood that operations of certain wind turbines being suspended in wind farms was a fairly common phenomenon in the “three <unk> wind power regions.",
+    "hyp": "The reporter in early August learned that the first half of this year, the national <unk> wind power concentration area, <unk> <unk> is more common.",
+    "hyp_id": "eeccc830148f89178ad6a444b2eb59901ec7709506d092799c91498bcb5213f9"
+  },
+  {
+    "src": "盐城风电、光伏等新能源占江苏的70%，沿海发展新能源，当地生产当地消费，在盐城显示了巨大的优势和潜力。",
+    "ref": "<unk> renewable energy such as wind power and <unk> accounts for 70% of <unk> total. Renewable energy developed along the coast is produced and consumed locally, and has displayed enormous advantages and potential in <unk>",
+    "hyp": "The new energy sources of Jiangsu are the wind and solar energy in the coastal area and the local consumption in the coastal area shows great advantage and potential.",
+    "hyp_id": "022cdcc1f858f1988967367fbe682260e030bf9a63a85284cbaf26714273c457"
+  },
+  {
+    "src": "1月3日消息：记者昨日从广州市花市办获悉，2008年的迎春花市将于近日开始招投标。",
+    "ref": "January 3 news: Reporters learned from the Guangzhou Flower Market Office yesterday that the Spring Festival flower market will begin receiving bids for the 2008 Spring Festival flower market soon.",
+    "hyp": "January 3 news : reporter yesterday from the Guangzhou flower market office that the 2008 city of <unk> will begin to bid recently.",
+    "hyp_id": "2a97ca13f413c9546d2e0832c76c64ae93956219aebeb1add43a7c76b8541924"
+  },
+  {
+    "src": "花都区于上月29、30日分别进行了<unk>和<unk>的招投标。",
+    "ref": "Huadu District held tenders for the tangerine and flower booths on the 29th and 30th last month, respectively.",
+    "hyp": "The city of the city of the last 29 or 30 months to conduct <unk> and <unk> of the bid respectively.",
+    "hyp_id": "9be0ffe0f2debefd265574ec1875b6b7c4019713563e98bb871add00e97419b7"
+  },
+  {
+    "src": "越秀区档案馆正在组织和收集数百张历史性的迎春花市的老照片(拍摄年代都距今<unk>之久)，定于2008年1月8日在越秀区文化艺术中心进行公开的展览，在1月底花市开始进行搭建时，这批老照片将移至北京路<unk>小广场进行展览。",
+    "ref": "Guangzhou Yuexiu Archives Bureau is organizing and collecting hundreds of historic old photos of Spring Festival flower markets <unk> some 50 to 60 years ago), and will publicly exhibit them at the Yuexiu Culture Artistic Center on January 8, 2008. When the flower markets are being constructed at the end of January, the exhibition of these old photos will be moved to <unk> Department Store at Beijing Road.",
+    "hyp": "The <unk> is organizing and collecting hundreds of old photos of the city of <unk> due to be put on display at the <unk> Culture and Art Center on Jan. 8, 2008.",
+    "hyp_id": "d2f106595e3e7ad5428ff4bd7804b61321bc199e41dda6ba6cc75572c64fcb18"
+  },
+  {
+    "src": "另外，越秀区文化局还将举办一期花市论坛，邀请广州市的老领导、社会民俗专家、社会名流、北京路的<unk>等一起畅谈北京路<unk>花市的历史及未来的发展。",
+    "ref": "Elsewhere, the Cultural Bureau of Yuexiu District will also hold a flower market forum, and will invite old Guangzhou leaders, folklore experts, celebrities, old residents of Beijing Road and others to come together to talk about the history and future development of Beijing Road and West Lake Road flower markets.",
+    "hyp": "In addition, the Department of Culture will also hold a forum to invite the old leader of Guangzhou, social folk experts and <unk> of Beijing Road to talk about the history and future of the market.",
+    "hyp_id": "c49b4eb8f64687f97deba1bbf8d758650855a9353da3ade808a6ffb1c0e7a45e"
+  },
+  {
+    "src": "届时，花市论坛将联系网络媒体进行网上直播，同步与市民进行互动。",
+    "ref": "The flower market forum will contact Internet media to carry out online broadcast, and will conduct live interaction with residents.",
+    "hyp": "By then, the <unk> will contact the online media to direct the network and interact with the public.",
+    "hyp_id": "a5fd210ed4aa1c91e183dae26b70337f84477d189cac8060ef98168f357458ef"
+  },
+  {
+    "src": "此外，还开通网上花市，利用小区信息网络，为进入北京路商圈和<unk>花市游览购物的市民发送有关花市的介绍短信，并可以利用手机上网来流览“网上花市”。",
+    "ref": "In addition, online flower markets will be made accessible. By using the information networks of housing estates, brief introductions and messages about the flower markets will be sent to residents who intend to visit and shop at the Beijing Road business district and West Lake Road flower market. Residents may browse the <unk> flower <unk> on their mobile phones.",
+    "hyp": "In addition, the <unk> information network is used to send a short message about the flower market to the people who are visiting the city of Beijing Road and the city of <unk>",
+    "hyp_id": "8f56b280fd5799a25212ea67558b5b2665e26c3388190c0a46e33b1807bdcceb"
+  },
+  {
+    "src": "2015年禁用死囚器官当年，中国公民逝世后捐献器官<unk>例，完成<unk>例器官移植手术，刷新了历史纪录。",
+    "ref": "In 2015, the year when harvesting the organs of death row inmates was forbidden, there were <unk> cases of organ donations from Chinese citizens upon death, and <unk> organ transplant surgeries performed, setting a new record.",
+    "hyp": "In 2015. the case of Chinese citizen who donated <unk> after death was banned from organ of organ of organ of the <unk> in 2015.",
+    "hyp_id": "e966de3d0a9faf014865f06899bb490b7c4a910b264105d14e2341a1e7e1fa9b"
+  },
+  {
+    "src": "以往《临川四梦》，基本都是以昆曲的形式呈现在戏曲舞台上的，而被改编成话剧演出，这还是第一次。",
+    "ref": "In the past, the <unk> Dreams of <unk> would be performed on stage in the Kunqu style. The performance of this piece after it was adapted into a play, is a first.",
+    "hyp": "In the past <unk> <unk> the basic is to show in the form of the form of the opera stage, but was adapted into a drama performance, this is the first time.",
+    "hyp_id": "27673dfda939000e046c76033bf6154307d4c7137db8ea9e1dfb2d4203dad7f4"
+  },
+  {
+    "src": "决赛面对傅家俊，希金斯上来就连续三杆<unk>，取得4-1的领先。",
+    "ref": "In the finals against Marco Fu, Higgins scored three consecutive shots and got a 4-1 lead.",
+    "hyp": "In the final of the game of the Chinese team in the first three consecutive games of the Chinese team in the first three straight <unk> to take the lead of the fourth round of the game.",
+    "hyp_id": "4096f339539e39cc3f7ff6c9a3f2b1d6a5f46d509a689e2a0f6be458e0eecac9"
+  },
+  {
+    "src": "“四川造”新能源汽车逆势上行财政补贴力度减弱、充电设施普及率不高、三元锂电池暂停在新能源客车上使用，面对国内新能源汽车市场当前的上行压力",
+    "ref": "“Made in <unk> renewable energy vehicles rose against the tide. <unk> fiscal subsidies, inadequate charging facilities, and ternary lithium batteries suspended from use in renewable energy passenger vehicles; in the face of prevailing upward pressures in the domestic renewable energy automobile market",
+    "hyp": "Sichuan <unk> new energy automobile industry to reduce the <unk> <unk> charging facilities to be low and three battery to be suspended in new energy bus use, facing the domestic new energy market pressure of the market",
+    "hyp_id": "00d3eaff5de2de2bc221ad814528fcf5705fb51d69fbcade5b6e8866bc36ed3b"
+  },
+  {
+    "src": "11月3日—6日，在第十六届中国西部国际博览会（以下简称“西博会”）第一阶段展览中，成都、南充、雅安等6个<unk>纷纷展示在先进制造业方面的发展成果，其中新能源汽车崭露锋芒，新品迭出，引起业界的广泛关注。",
+    "ref": "In the Phase I exhibition of the 16th Western China International Fair (hereinafter referred to as <unk> which was held between November 3 and 6, six cities and prefectures including Chengdu, Nanchong and <unk> exhibited their development achievements in the advanced manufacturing sector. Renewable energy vehicles shone in particular, with the launch of various new vehicles, attracting widespread attention in the industry.",
+    "hyp": "On November 3 - 6, in the first phase of the China Western Expo in China, the development of the new energy car in the advanced manufacturing <unk> was displayed in Chengdu and <unk>",
+    "hyp_id": "48fc879956862de1c3a85cea8a33904fd4d58aca4682e13dfacc8600e4462092"
+  },
+  {
+    "src": "当前，随着新能源汽车财政补贴力度减弱、充电设施普及率不高、三元锂电池暂停在新能源客车上使用，国内新能源汽车市场出现暂时的上行压力。",
+    "ref": "At present, the domestic renewable energy automobile market is temporarily under pressure because of weakening fiscal subsidies, inadequate charging facilities, and ternary lithium batteries being suspended from use in renewable energy passenger vehicles.",
+    "hyp": "At present, with the decrease of the financial support of new energy cars, the rate of charging facilities is not high, and the suspension of three new battery is used in new energy bus.",
+    "hyp_id": "79b13f27712f77ae832d534e6ac887eaa5760a5345ffe04f95ffeec595671dbc"
+  },
+  {
+    "src": "然而，“四川造”新能源汽车却逆势上行，大举进军乘用车和商用车细分市场，底气何在？",
+    "ref": "However, “Made in <unk> renewable energy vehicles rose against the tide, and have made major forays into the passenger and commercial vehicle <unk> Why so <unk>",
+    "hyp": "However, the <unk> new energy car but the market of the car is on the rise and into a large number of passenger cars and commercial vehicles in the market, what is the <unk>",
+    "hyp_id": "499823fa6a2969215f5748a0cf478968a0d4392c0d0c22e591b364ed427c452e"
+  },
+  {
+    "src": "本报记者<unk>现状：集中力量培育“尖子生”近期，“四川造”新能源汽车产业新闻不断。",
+    "ref": "Staff reporter Zhao <unk> Current situation: Focus on developing “top <unk> “Made In <unk> renewable energy vehicles have dominated the news lately.",
+    "hyp": "Our <unk> <unk> the current situation of the <unk> focus on the cultivation of the <unk> of the recent <unk> <unk> new energy industry news of the industry.",
+    "hyp_id": "c7cb0310596f26d59443f63671c4cb6287fcdcf7c6d2f8574cbdfe7b899a9a68"
+  },
+  {
+    "src": "在完成收购东风南充汽车有限公司后不到8个月时间，10月26日，吉利控股集团（以下简称“吉利集团”）旗下的全新商用车品牌“远程”在成都首发，旗下首款搭载智能车联网平台的纯电动轻卡远程<unk>首次亮相西博会。",
+    "ref": "Less than eight months after acquiring Dongfeng Nanchong Automobile Co., Ltd., Geely Holding Group’s (hereinafter referred to <unk> <unk> brand new commercial vehicle brand <unk> <unk> made its debut on October 26. Yuan Cheng <unk> Geely Group's first pure electric light truck equipped with a smart auto networking platform premiered at <unk>",
+    "hyp": "On October 26, the new commercial vehicle brand of the group of China China National Motor Co. , Ltd. started in Chengdu and its first <unk> electric car with a smart vehicle platform made its debut on the <unk>",
+    "hyp_id": "32a7e36d8ff62980e914ed48b1fbddaa259622dbbe5705b4f2498548ab56c6c0"
+  },
+  {
+    "src": "值得一提的是，在今年的企业工资指导线涨幅多为持平或下降的情况下，北京和贵州的下线有所提高。",
+    "ref": "It is worth mentioning that under circumstances where the rate of growth of the enterprise wage guidelines this year was mainly flat or down, the minimum threshold in Beijing and Guizhou was raised.",
+    "hyp": "It is noted that in this year's <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>",
+    "hyp_id": "a1ed31d6fad287cf459c4a7ff97abeea755266d5e19d6318eb6264f53e483723"
+  },
+  {
+    "src": "新华社伦敦1月9日电（记者<unk>）英国体育理事会9日公布了下个月参加韩国平昌冬奥会的目标：赢得至少5块奖牌，这是英国代表团参加冬奥会历史上“最宏伟的”目标。",
+    "ref": "Xinhua News Agency London January 9 wire (Reporter Wang <unk> On the 9th, UK Sport announced Great Britain’s target for next month’s Winter Olympics to be held in <unk> South Korea: Win at least five medals. This would Team <unk> “best <unk> target in the history of the Winter Olympics.",
+    "hyp": "The British Sports Council on January 9 announced its goal to win at least five medals in the <unk> Olympic Games in South Korea, the most <unk> goal in British history in the Olympic Games.",
+    "hyp_id": "50fcb092b4f3056b320abb356914259d887bf459161ba150737373f04fd28f08"
+  },
+  {
+    "src": "英国体育理事会负责各个奥运会项目资金的划拨，当然也负责给各个项目下达<unk>目标。",
+    "ref": "UK Sport is responsible for allocating funds to the various Olympic events, and for setting the medal targets for each event.",
+    "hyp": "The British Sports Council is responsible for the allocation of funds for the Olympic events and of course for the <unk> of the <unk>",
+    "hyp_id": "17550f7542f315afd3f9848beb7fca5830b1e23f0ffb668eaa60da0169ed61f5"
+  },
+  {
+    "src": "据推算，英国运动员有希望冲击奖牌的项目来自单板滑雪、冰壶、钢架雪车和短道速滑等。",
+    "ref": "It is predicted that events UK athletes have hopes of winning a medal are snowboarding, curling, skeleton and short track speed skating.",
+    "hyp": "British athletes are expected to have a chance to hit medals from the <unk> <unk> steel <unk> and short track speed events.",
+    "hyp_id": "1a74bb2de2ac277a245e763675ffe0a546568016c360ab1f32326049f67bbfa7"
+  },
+  {
+    "src": "在过去一个冬奥会周期内，英国体育理事会为冬奥会项目划拨了总共3200万英镑（约合2.8亿元人民币）的训练经费，比索契冬奥会周期翻了一倍。",
+    "ref": "In the last Winter Olympic cycle, UK Sport has allocated a total of <unk> million (approximately <unk> million) to fund training for the Winter Olympic Game events, doubled that of the funding for the Sochi Winter Olympic cycle.",
+    "hyp": "In the past winter cycle, the British Sports Council has paid a total of <unk> <unk> for the Olympic <unk> double the <unk> cycle.",
+    "hyp_id": "c3a93453333f3a86e32e448ff4eb7b7d8fc4b0d32f79459e4bec26ba0964ca7d"
+  },
+  {
+    "src": "这些钱大部分来自国家彩票，剩下的来自国家财政。",
+    "ref": "Most of the funding was sourced from the National <unk> with the balance funded by the government.",
+    "hyp": "Most of that money comes from the National <unk> the rest comes from the state financial department.",
+    "hyp_id": "de1a7ed5f7666ed73f6e4e7bb22b3f0943b12b182d9d4bdbbe2cfa58a4fba834"
+  },
+  {
+    "src": "英国夺金的希望主要寄托在两人身上，一个是去年世界短道速滑锦标赛三金得主爱丽丝·克里斯蒂，另外一个是上届的女子钢架雪车冠军利兹·亚诺德。",
+    "ref": "The UK has pinned its hopes for the gold medal on two people - short track speed skater Elise Christie, a triple gold medalist at last year’s world championships, and Lizzy <unk> the previous skeleton Olympic champion.",
+    "hyp": "The hope of the British gold medal was mainly on the two of them, one of three gold winner of the world short track speed course title last year, and the other of the last woman steel frame champion of the woman of the title of the woman of the former of the title of the <unk>",
+    "hyp_id": "939105b799f0b1c07dca43198da5cad1b3fd368c7a22568a356fe880da36dcef"
+  },
+  {
+    "src": "2014年索契冬奥会，英国代表团取得了1金1银2铜的战绩，这是自1924年首届冬奥会之后，他们取得的最好战绩。",
+    "ref": "At the Sochi Winter Olympics in 2014, Team GB won one gold, one silver and two bronzes, the best tally since the inaugural Winter Olympics in 1924.",
+    "hyp": "In the first Olympic Games in the capital of the British delegation in the first gold <unk> in the first Olympic Games since the first in the first record they have made in the British Olympic Games.",
+    "hyp_id": "4ded9bcbbd20fd36fdd65f3ad6b08b72ec89a15cc42db3f3953b9ae51cc98ded"
+  }
+]
