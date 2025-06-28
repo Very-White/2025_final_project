@@ -43,7 +43,7 @@ pip install -r requirements.txt
 
 # 测试
 
-首先需要将训练好的模型（https://huggingface.co/Bai-Bai-Bai/zh-en-transformer） 下载下来，这里推荐保存在`runs/`文件夹下。然后用以下命令进行测试：
+首先需要将训练好的模型（https://www.modelscope.cn/models/SuperBaiBaiBai/zh-en-transformer） 下载下来，这里推荐保存在`runs/`文件夹下。然后用以下命令进行测试：
 
 ```bash
 python evaluate.py -c config_by_steps.yaml --ckpt runs/best_model.pt --save_path translations.json
@@ -60,6 +60,8 @@ python evaluate.py -c config_by_steps.yaml --ckpt runs/best_model.pt --save_path
 ```json
 {"en": "Records indicate that HMX-1 inquired about whether the event might violate the provision.", "zh": "记录指出 HMX-1 曾询问此次活动是否违反了该法案。", "index": 0}
 ```
+
+> 模型训练使用到的数据集：https://aistudio.baidu.com/datasetdetail/209041
 
 应该有`train.jsonl`、`valid.jsonl`、`test.jsonl`三个文件。都保存在`data`文件夹下。然后运行预处理脚本：
 
