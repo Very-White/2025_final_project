@@ -43,7 +43,7 @@ pip install -r requirements.txt
 
 # 测试
 
-首先需要将训练好的模型（https://www.modelscope.cn/models/SuperBaiBaiBai/zh-en-transformer） 下载下来，这里推荐保存在`runs/`文件夹下。然后用以下命令进行测试：
+首先需要将训练好的模型（https://www.modelscope.cn/models/SuperBaiBaiBai/zh-en-transformer ） 下载下来，这里推荐保存在`runs/`文件夹下。然后用以下命令进行测试：
 
 ```bash
 python evaluate.py -c config_by_steps.yaml --ckpt runs/best_model.pt --save_path translations.json
