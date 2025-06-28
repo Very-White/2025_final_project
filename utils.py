@@ -61,8 +61,8 @@ def collate_fn(
     """
     src, tgt = zip(*batch)  # 两个 list
 
-    idxs_to_remove=[i for i, s in enumerate(src) if len(s) > 85]
-    idxs_to_remove.extend([i for i,t in enumerate(tgt) if len(t) > 85])
+    idxs_to_remove=[i for i, s in enumerate(src) if len(s) > 100]
+    idxs_to_remove.extend([i for i,t in enumerate(tgt) if len(t) > 100])
     idxs_to_remove=set(idxs_to_remove)
 
     # # 测试最长序列

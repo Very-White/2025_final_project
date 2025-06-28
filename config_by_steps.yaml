@@ -3,28 +3,28 @@ tokenizer: tokenizer.JiebaEnTokenizer     # 可改为自定义类的全路径
 
 # ------------- 模型结构 ----------------
 model:
-  enc_layers: 6         # Transformer Encoder 层数
-  dec_layers: 6          # Transformer Decoder 层数
-  emb_size: 192         # 词向量 / 隐层维度
-  nhead: 8               # Multi-Head Attention 头数
-  ffn_dim: 768           # Feed-Forward 隐层
+  enc_layers: 10         # Transformer Encoder 层数
+  dec_layers: 10          # Transformer Decoder 层数
+  emb_size: 1024         # 词向量 / 隐层维度
+  nhead: 16               # Multi-Head Attention 头数
+  ffn_dim: 4096           # Feed-Forward 隐层
   dropout: 0.1           # Dropout 概率
 
 # ------------- 训练超参 ----------------
 train:
-  batch_size: 4
-  lr: 0.00025
+  batch_size: 32
+  lr: 0.00005
   weight_decay: 0.00005
   scheduler_per_step: true
-  lr_step: 80000             # StepLR：每多少 steps 衰减
+  lr_step: 40000             # StepLR：每多少 steps 衰减
   lr_gamma: 0.9          # 衰减系数
-  warmup_steps: 24000  # 新增warmup参数
+  warmup_steps: 12000  # 新增warmup参数
   save_dir: runs         # 存 ckpt 的文件夹
   num_workers: 0         # 最好不要修改
-  total_steps: 800000  # 总训练步数
-  log_interval: 800    # 训练日志间隔
-  val_interval: 8000   # 验证间隔
-  save_every: 20000     # 模型保存间隔
+  total_steps: 400000  # 总训练步数
+  log_interval: 400    # 训练日志间隔
+  val_interval: 4000   # 验证间隔
+  save_every: 10000     # 模型保存间隔
   use_fp16: true  # 是否使用 fp16
 
 # ------------- 数据路径 ----------------
@@ -33,14 +33,13 @@ data:
   raw_val:        data/valid.jsonl
   raw_test:       data/test.jsonl
 
-  processed_dir:  data/processed_5000k
-  train_processed: data/processed_5000k/train.jsonl
-  val_processed:   data/processed_5000k/val.jsonl
-  test_processed:  data/processed_5000k/test.jsonl
-
-  src_vocab:      data/processed_5000k/src_vocab.pkl
-  tgt_vocab:      data/processed_5000k/tgt_vocab.pkl
-  min_freq: 1
+  processed_dir:  data/processed_5000k_min_freq_10
+  train_processed: data/processed_5000k_min_freq_10/train.jsonl
+  val_processed:   data/processed_5000k_min_freq_10/val.jsonl
+  test_processed:  data/processed_5000k_min_freq_10/test.jsonl
+  src_vocab:      data/processed_5000k_min_freq_10/src_vocab.pkl
+  tgt_vocab:      data/processed_5000k_min_freq_10/tgt_vocab.pkl
+  min_freq: 10
 
 # ------------- 其余 --------------------
 seed: 3407          # 固定随机种子，保证可复现
